@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Section, Panel, Tip, Warning, H3, H4, P, B, Gold } from "@/components/ui";
+
+export const metadata: Metadata = {
+  title: "Damage Mechanics — Hệ Thống Sát Thương Chi Tiết",
+  description:
+    "Hướng dẫn chi tiết damage mechanics Path of Exile 1: damage types, conversion, increased vs more, hit vs DoT, ailments, crit system, penetration, EHP calculation.",
+  keywords: ["PoE damage", "damage conversion", "increased vs more", "ailments", "crit", "penetration", "EHP", "Path of Exile"],
+};
 
 function Formula({ children }: { children: React.ReactNode }) {
   return (
@@ -8,12 +16,6 @@ function Formula({ children }: { children: React.ReactNode }) {
     </div>
   );
 }
-
-export const metadata = {
-  title: "Co Che Sat Thuong & Phong Thu Nang Cao — Path of Exile 1 Guide",
-  description:
-    "Huong dan chi tiet ve co che sat thuong, cong thuc tinh damage, hit vs DoT, ailment, crit, penetration, phong thu va EHP trong Path of Exile 1.",
-};
 
 export default function DamageMechanicsPage() {
   return (

@@ -2,9 +2,57 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Path of Exile 1 — Hướng Dẫn Cho Người Mới",
+  title: {
+    default: "Path of Exile 1 — Hướng Dẫn Chuyên Sâu Tiếng Việt",
+    template: "%s | PoE Guide Tiếng Việt",
+  },
   description:
-    "Hướng dẫn toàn diện Path of Exile 1 cho người mới. Classes, Skill Gems, Passive Tree, Currency, Builds, Atlas, Endgame và nhiều hơn nữa.",
+    "Hướng dẫn toàn diện Path of Exile 1 tiếng Việt. Damage mechanics, defense layers, meta builds, atlas strategies, currency farming, boss guides, crafting — từ người mới đến endgame.",
+  keywords: [
+    "Path of Exile",
+    "PoE",
+    "hướng dẫn",
+    "guide",
+    "tiếng Việt",
+    "builds",
+    "passive tree",
+    "skill gems",
+    "currency",
+    "atlas",
+    "endgame",
+    "league starter",
+    "damage mechanics",
+    "crafting",
+    "boss guide",
+    "ARPG",
+    "Grinding Gear Games",
+  ],
+  authors: [{ name: "PoE Guide VN" }],
+  creator: "PoE Guide VN",
+  openGraph: {
+    type: "website",
+    locale: "vi_VN",
+    siteName: "PoE Guide Tiếng Việt",
+    title: "Path of Exile 1 — Hướng Dẫn Chuyên Sâu Tiếng Việt",
+    description:
+      "Từ người mới đến endgame: damage mechanics, defense layers, meta builds, atlas strategies, currency farming, boss guides và crafting.",
+    images: [{ url: "/images/hero.jpg", width: 2560, height: 1440, alt: "Path of Exile Guide" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Path of Exile 1 — Hướng Dẫn Chuyên Sâu Tiếng Việt",
+    description:
+      "Hướng dẫn toàn diện PoE1 tiếng Việt: damage, defense, builds, atlas, currency, bosses.",
+    images: ["/images/hero.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

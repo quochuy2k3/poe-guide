@@ -1,5 +1,27 @@
+import type { Metadata } from "next";
 import Navigation from "@/components/Navigation";
 import S01 from "@/components/sections/S01_BasicConcepts";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "PoE Guide Tiếng Việt",
+  description:
+    "Hướng dẫn toàn diện Path of Exile 1 tiếng Việt — từ người mới đến endgame.",
+  url: "https://quochuy2k3.github.io/poe-guide",
+  inLanguage: "vi",
+  about: {
+    "@type": "VideoGame",
+    name: "Path of Exile",
+    genre: "Action RPG",
+    gamePlatform: ["PC", "PlayStation", "Xbox"],
+    publisher: { "@type": "Organization", name: "Grinding Gear Games" },
+  },
+};
 import S02 from "@/components/sections/S02_Classes";
 import S03 from "@/components/sections/S03_DamageMechanics";
 import S04 from "@/components/sections/S04_DefenseLayers";
@@ -17,6 +39,10 @@ import S14 from "@/components/sections/S14_Tools";
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Navigation />
 
       <main className="lg:pl-56">

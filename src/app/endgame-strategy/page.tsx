@@ -3,9 +3,10 @@ import Link from "next/link";
 import { Section, Panel, Tip, Warning, H3, H4, P, B, Gold } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: "Path of Exile 1 — Endgame Strategy Guide (Pro)",
+  title: "Endgame Strategy — Atlas, Farming, Crafting & Boss Rush",
   description:
-    "Huong dan endgame chi tiet cho pro player: Atlas strategy, map farming, currency farming, crafting, boss rush, trading, juicing, Delve, Heist va nhieu hon.",
+    "Hướng dẫn endgame chi tiết PoE1: Atlas passive strategy, map farming, currency farming methods, crafting guide, boss rush profit, trading tips, juicing maps, Delve, Heist.",
+  keywords: ["PoE endgame", "atlas strategy", "currency farming", "crafting guide", "boss rush", "map juicing", "Delve", "Heist", "Path of Exile"],
 };
 
 /* ── Navigation sidebar data ── */
