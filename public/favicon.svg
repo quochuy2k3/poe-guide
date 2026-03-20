@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" rx="4" fill="#0c0a09"/>
+  <!-- Outer gem shape -->
+  <polygon points="16,2 28,10 28,22 16,30 4,22 4,10" fill="none" stroke="#c8a44e" stroke-width="1.5" opacity="0.4"/>
+  <!-- Inner gem facets -->
+  <polygon points="16,5 25,11 25,21 16,27 7,21 7,11" fill="none" stroke="#c8a44e" stroke-width="0.8" opacity="0.25"/>
+  <!-- Stylized gothic P -->
+  <path d="M11,24 L11,8 L12,7 L19,7 Q23,7 23,11.5 Q23,16 19,16 L13.5,16" fill="none" stroke="#c8a44e" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- P serif/accent at base -->
+  <line x1="9" y1="24" x2="13" y2="24" stroke="#c8a44e" stroke-width="2" stroke-linecap="round"/>
+  <!-- Gem highlight on P bowl -->
+  <circle cx="18" cy="11.5" r="1.8" fill="#c8a44e" opacity="0.3"/>
+  <!-- Top gem sparkle -->
+  <circle cx="16" cy="2.5" r="1" fill="#c8a44e" opacity="0.6"/>
+</svg>
