@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 
 export default function SectionImage({
   src,
@@ -28,12 +28,21 @@ export default function SectionImage({
     return () => obs.disconnect();
   }, []);
 
+  // Lock body scroll + Escape key
   useEffect(() => {
-    if (preview) {
-      document.body.style.overflow = "hidden";
-      return () => { document.body.style.overflow = ""; };
-    }
+    if (!preview) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setPreview(false); };
+    window.addEventListener("keydown", onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      window.removeEventListener("keydown", onKey);
+    };
   }, [preview]);
+
+  const open = useCallback(() => setPreview(true), []);
+  const close = useCallback(() => setPreview(false), []);
 
   if (error) return null;
 
@@ -41,13 +50,17 @@ export default function SectionImage({
     <>
       <div
         ref={ref}
+        role="button"
+        tabIndex={0}
+        aria-label={`Xem ảnh: ${alt}`}
         className={`section-img cursor-pointer group ${className}`}
         style={{
           opacity: visible && loaded ? 1 : 0,
           transform: visible && loaded ? "translateY(0)" : "translateY(16px)",
           transition: "opacity 0.6s ease, transform 0.6s ease",
         }}
-        onClick={() => setPreview(true)}
+        onClick={open}
+        onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } }}
       >
         <img
           src={src}
@@ -70,13 +83,17 @@ export default function SectionImage({
       {preview && (
         <div
           className="fixed inset-0 z-[100] flex items-center justify-center p-4 cursor-pointer lightbox-overlay"
-          onClick={() => setPreview(false)}
+          onClick={close}
+          role="dialog"
+          aria-modal="true"
+          aria-label={alt}
         >
           <div className="absolute inset-0 bg-black/90 backdrop-blur-md" />
           <button
-            onClick={(e) => { e.stopPropagation(); setPreview(false); }}
+            onClick={(e) => { e.stopPropagation(); close(); }}
             className="absolute top-4 right-4 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white/80 hover:bg-white/20 hover:text-white transition-all"
-            aria-label="Close"
+            aria-label="Đóng"
+            autoFocus
           >
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 5l10 10M15 5L5 15" />
@@ -89,7 +106,7 @@ export default function SectionImage({
             onClick={(e) => e.stopPropagation()}
           />
           <div className="absolute bottom-4 left-0 right-0 text-center text-xs text-white/50">
-            Click anywhere hoặc ✕ để đóng
+            ESC hoặc click anywhere để đóng
           </div>
         </div>
       )}

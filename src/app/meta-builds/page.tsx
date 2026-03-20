@@ -1,72 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { Section, Panel, Tip, Warning, H3, H4, P, B, Gold } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "PoE 1 Meta Builds 3.25-3.28 — Huong Dan Pro Gamer",
   description:
     "Top builds meta Path of Exile 1 patch 3.25 den 3.28 Mirage League. League Starter, Boss Killer, Speed Farming, Ascendancy Tier List, Gem Links, Budget Scaling.",
 };
-
-/* ── Shared UI ────────────────────────────────── */
-
-function Section({
-  id,
-  num,
-  title,
-  children,
-}: {
-  id: string;
-  num: string;
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section id={id} className="scroll-mt-20">
-      <div className="mb-8">
-        <span className="font-heading text-xs font-semibold tracking-[0.2em] text-poe-gold-dim uppercase">
-          Phan {num}
-        </span>
-        <h2 className="section-title mt-1 font-heading text-2xl font-bold text-poe-text-bright sm:text-3xl">
-          {title}
-        </h2>
-        <div className="mt-3 h-px w-24 bg-gradient-to-r from-poe-gold to-transparent" />
-      </div>
-      {children}
-    </section>
-  );
-}
-
-function Panel({ children, className = "" }: { children: React.ReactNode; className?: string }) {
-  return <div className={`game-panel rounded-lg p-5 ${className}`}>{children}</div>;
-}
-
-function Tip({ children }: { children: React.ReactNode }) {
-  return <div className="tip-box rounded-r-lg p-4 my-4 text-sm">{children}</div>;
-}
-
-function Warning({ children }: { children: React.ReactNode }) {
-  return <div className="warning-box rounded-r-lg p-4 my-4 text-sm">{children}</div>;
-}
-
-function H3({ children }: { children: React.ReactNode }) {
-  return <h3 className="mt-8 mb-3 font-heading text-lg font-semibold text-poe-gold">{children}</h3>;
-}
-
-function H4({ children }: { children: React.ReactNode }) {
-  return <h4 className="mt-6 mb-2 font-heading text-base font-semibold text-poe-text-bright">{children}</h4>;
-}
-
-function P({ children }: { children: React.ReactNode }) {
-  return <p className="mb-4 text-poe-text leading-relaxed">{children}</p>;
-}
-
-function B({ children }: { children: React.ReactNode }) {
-  return <strong className="text-poe-text-bright font-semibold">{children}</strong>;
-}
-
-function Gold({ children }: { children: React.ReactNode }) {
-  return <span className="text-poe-gold font-semibold">{children}</span>;
-}
 
 function Unique({ children }: { children: React.ReactNode }) {
   return <span className="rarity-unique font-semibold">{children}</span>;

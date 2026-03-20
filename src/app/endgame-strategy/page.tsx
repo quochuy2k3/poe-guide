@@ -1,93 +1,12 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { Section, Panel, Tip, Warning, H3, H4, P, B, Gold } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Path of Exile 1 — Endgame Strategy Guide (Pro)",
   description:
     "Huong dan endgame chi tiet cho pro player: Atlas strategy, map farming, currency farming, crafting, boss rush, trading, juicing, Delve, Heist va nhieu hon.",
 };
-
-/* ── Shared UI helpers (same style as main page) ── */
-
-function Section({
-  id,
-  num,
-  title,
-  children,
-}: {
-  id: string;
-  num: string;
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section id={id} className="scroll-mt-20">
-      <div className="mb-8">
-        <span className="font-heading text-xs font-semibold tracking-[0.2em] text-poe-gold-dim uppercase">
-          Chuong {num}
-        </span>
-        <h2 className="section-title mt-1 font-heading text-2xl font-bold text-poe-text-bright sm:text-3xl">
-          {title}
-        </h2>
-        <div className="mt-3 h-px w-24 bg-gradient-to-r from-poe-gold to-transparent" />
-      </div>
-      {children}
-    </section>
-  );
-}
-
-function Panel({
-  children,
-  className = "",
-}: {
-  children: React.ReactNode;
-  className?: string;
-}) {
-  return (
-    <div className={`game-panel rounded-lg p-5 ${className}`}>{children}</div>
-  );
-}
-
-function Tip({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="tip-box rounded-r-lg p-4 my-4 text-sm">{children}</div>
-  );
-}
-
-function Warning({ children }: { children: React.ReactNode }) {
-  return (
-    <div className="warning-box rounded-r-lg p-4 my-4 text-sm">{children}</div>
-  );
-}
-
-function H3({ children }: { children: React.ReactNode }) {
-  return (
-    <h3 className="mt-8 mb-3 font-heading text-lg font-semibold text-poe-gold">
-      {children}
-    </h3>
-  );
-}
-
-function H4({ children }: { children: React.ReactNode }) {
-  return (
-    <h4 className="mt-6 mb-2 font-heading text-base font-semibold text-poe-text-bright">
-      {children}
-    </h4>
-  );
-}
-
-function P({ children }: { children: React.ReactNode }) {
-  return <p className="mb-4 text-poe-text leading-relaxed">{children}</p>;
-}
-
-function B({ children }: { children: React.ReactNode }) {
-  return (
-    <strong className="text-poe-text-bright font-semibold">{children}</strong>
-  );
-}
-
-function Gold({ children }: { children: React.ReactNode }) {
-  return <span className="text-poe-gold font-semibold">{children}</span>;
-}
 
 /* ── Navigation sidebar data ── */
 const sections = [
@@ -133,12 +52,12 @@ function NavSidebar() {
         ))}
       </div>
       <div className="border-t border-poe-border px-4 py-3">
-        <a
+        <Link
           href="/"
           className="text-xs text-poe-text-dim hover:text-poe-gold transition-colors"
         >
           &larr; Beginner Guide
-        </a>
+        </Link>
       </div>
     </nav>
   );

@@ -24,6 +24,14 @@ export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
 
+  // Escape key closes mobile menu
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setMobileOpen(false); };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [mobileOpen]);
+
   useEffect(() => {
     const handleScroll = () => {
       if (scrolling) return;
@@ -65,14 +73,14 @@ export default function Navigation() {
       {/* Desktop sidebar */}
       <nav className="fixed left-0 top-0 z-40 hidden h-screen w-56 flex-col border-r border-poe-border bg-poe-bg/95 backdrop-blur-sm lg:flex">
         <div className="border-b border-poe-border px-4 py-4">
-          <a href="#" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="block">
+          <button onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="block text-left">
             <div className="font-heading text-sm font-bold tracking-widest text-poe-gold uppercase">
               PoE Guide
             </div>
             <div className="mt-0.5 text-xs text-poe-text-dim">
               Hướng Dẫn Chuyên Sâu
             </div>
-          </a>
+          </button>
         </div>
         <div className="flex-1 overflow-y-auto py-2 scrollbar-thin">
           {sections.map(({ id, label, num }) => (
