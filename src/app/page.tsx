@@ -54,6 +54,8 @@ const advancedGuides = [
   },
 ];
 
+const bp = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function Home() {
   return (
     <>
@@ -69,7 +71,7 @@ export default function Home() {
         <header className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 text-center">
           <div className="absolute inset-0 z-0">
             <img
-              src="/images/hero.jpg"
+              src={`${bp}/images/hero.jpg`}
               alt=""
               className="h-full w-full object-cover opacity-30"
             />

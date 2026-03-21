@@ -2,6 +2,8 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 
+const bp = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function SectionImage({
   src,
   alt,
@@ -11,6 +13,7 @@ export default function SectionImage({
   alt: string;
   className?: string;
 }) {
+  const fullSrc = src.startsWith("/") ? `${bp}${src}` : src;
   const [error, setError] = useState(false);
   const [preview, setPreview] = useState(false);
   const [visible, setVisible] = useState(false);
@@ -63,7 +66,7 @@ export default function SectionImage({
         onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(); } }}
       >
         <img
-          src={src}
+          src={fullSrc}
           alt={alt}
           onError={() => setError(true)}
           onLoad={() => setLoaded(true)}
@@ -100,7 +103,7 @@ export default function SectionImage({
             </svg>
           </button>
           <img
-            src={src}
+            src={fullSrc}
             alt={alt}
             className="relative max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl lightbox-img"
             onClick={(e) => e.stopPropagation()}
