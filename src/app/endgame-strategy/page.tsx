@@ -779,11 +779,11 @@ export default function EndgameStrategyPage() {
             <H3>7.3. Tips speedrun tổng hợp</H3>
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Không giết tất cả quái:</B> Chỉ giết quái trên đường đi. Level nên bằng hoặc thấp hơn zone level 2-3 level là được.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Lay toàn bộ passive point quest:</B> Passive Respec quest có thể bo, nhung passive point quest thi <Gold>bat buoc</Gold>.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>League start build:</B> Explosive Trap, Poisonous Concoction, SRS, Rolling Magma, Lightning Conduit là các build level nhanh nhat.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Skip side content:</B> Không lam Labyrinth khi leveling (tru khi cần Ascendancy node quan trọng). Quay lại sau khi xong Act 10.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Waypoint trick:</B> Khi vao zone moi, mo overlay map (Tab) để biet hưởng di. Zone trong PoE có quy luat layout &mdash; exit thường o <Gold>phia đổi dien</Gold> của entrance.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Logout macro:</B> Khi choi HC, dùng logout macro để thoat ngay khi gap nguy hiem.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Lấy toàn bộ passive point quest:</B> Passive Respec quest có thể bỏ, nhưng passive point quest thì <Gold>bắt buộc</Gold>.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>League start build:</B> Explosive Trap, Poisonous Concoction, SRS, Rolling Magma, Lightning Conduit là các build level nhanh nhất.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Skip side content:</B> Không làm Labyrinth khi leveling (trừ khi cần Ascendancy node quan trọng). Quay lại sau khi xong Act 10.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Waypoint trick:</B> Khi vào zone mới, mở overlay map (Tab) để biết hướng đi. Zone trong PoE có quy luật layout &mdash; exit thường ở <Gold>phía đối diện</Gold> của entrance.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Logout macro:</B> Khi chơi HC, dùng logout macro để thoát ngay khi gặp nguy hiểm.</span></li>
             </ul>
           </Section>
 
@@ -792,19 +792,19 @@ export default function EndgameStrategyPage() {
              ═══════════════════════════════════════════════════════ */}
           <Section id="defense" num="VIII" title="Defensive Layers &mdash; Xếp Chồng Phòng Thủ">
             <P>
-              Trong PoE, <B>khong có 1 layer phòng thủ nao du</B>. Bạn cần <B>xếp chồng nhiều layers</B> để song sot.
-              Các layer chia thành 3 nhom chinh: <B>Avoidance</B> (ne tranh), <B>Mitigation</B> (giam damage), va <B>Recovery</B> (hoi phuc).
+              Trong PoE, <B>không có 1 layer phòng thủ nào đủ</B>. Bạn cần <B>xếp chồng nhiều layers</B> để sống sót.
+              Các layer chia thành 3 nhóm chính: <B>Avoidance</B> (né tránh), <B>Mitigation</B> (giảm damage), và <B>Recovery</B> (hồi phục).
             </P>
 
             <H3>8.1. Armour + Determination</H3>
             <Panel className="mb-4">
               <div className="font-heading text-sm font-bold text-poe-gold mb-2">Armour (Physical Damage Mitigation)</div>
               <ul className="space-y-1 text-sm">
-                <li><B>Cong thuc:</B> Physical Damage Reduction = Armour / (Armour + 5 * Raw Physical Damage)</li>
-                <li><B>Cap:</B> Toi đã <Gold>90% physical mitigation</Gold> (50% với Imbalanced Guard)</li>
+                <li><B>Công thức:</B> Physical Damage Reduction = Armour / (Armour + 5 * Raw Physical Damage)</li>
+                <li><B>Cap:</B> Tối đa <Gold>90% physical mitigation</Gold> (50% với Imbalanced Guard)</li>
                 <li><B>Determination aura:</B> Base +1500 flat armour + <Gold>more armour modifier</Gold>. Với 40k armour, bạn giảm ~66% physical hit 2000 damage, ~50% hit 4000 damage.</li>
-                <li><B>Breakpoint:</B> Nham <Gold>30,000-50,000 armour</Gold> cho T16 mapping an toan.</li>
-                <li><B>Molten Shell guard skill:</B> Với 30k+ armour, Molten Shell hap thu <Gold>~8,000-10,000 damage</Gold>.</li>
+                <li><B>Breakpoint:</B> Nhắm <Gold>30,000-50,000 armour</Gold> cho T16 mapping an toàn.</li>
+                <li><B>Molten Shell guard skill:</B> Với 30k+ armour, Molten Shell hấp thụ <Gold>~8,000-10,000 damage</Gold>.</li>
               </ul>
             </Panel>
 
@@ -812,9 +812,9 @@ export default function EndgameStrategyPage() {
             <Panel className="mb-4">
               <div className="font-heading text-sm font-bold text-poe-gold mb-2">Evasion (Attack Avoidance)</div>
               <ul className="space-y-1 text-sm">
-                <li><B>Co che:</B> PoE dùng <B>entropy system</B>, không phải pure random. Nếu có 70% evasion, bạn sẽ <Gold>ne chính xác 7/10 hit</Gold>.</li>
+                <li><B>Cơ chế:</B> PoE dùng <B>entropy system</B>, không phải pure random. Nếu có 70% evasion, bạn sẽ <Gold>né chính xác 7/10 hit</Gold>.</li>
                 <li><B>Grace aura:</B> Base +2500 flat evasion + <Gold>more evasion modifier</Gold>.</li>
-                <li><B>Han che:</B> Evasion <B>khong hoạt động với Spell</B> va <B>khong giảm DoT</B>.</li>
+                <li><B>Hạn chế:</B> Evasion <B>không hoạt động với Spell</B> và <B>không giảm DoT</B>.</li>
                 <li><B>Breakpoint:</B> Nham <Gold>30,000-50,000 evasion</Gold> = ~70-80% chance to evade attacks.</li>
                 <li><B>Wind Dancer keystone:</B> -20% evasion nhung giảm 40% damage từ hit đầu tiền sau khi bị hit gan day. Rat mạnh cho evasion build.</li>
               </ul>
