@@ -149,7 +149,7 @@ export default function EndgameStrategyPage() {
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Secrets of thể Stones</B> &mdash; Harbinger trong map drop thêm shards. Trung bình thêm 30-50% giá trị loot.</span>
+                <span><B>Secrets of the Stones</B> &mdash; Harbinger trong map drop thêm shards. Trung bình thêm 30-50% giá trị loot.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
@@ -815,19 +815,19 @@ export default function EndgameStrategyPage() {
                 <li><B>Cơ chế:</B> PoE dùng <B>entropy system</B>, không phải pure random. Nếu có 70% evasion, bạn sẽ <Gold>né chính xác 7/10 hit</Gold>.</li>
                 <li><B>Grace aura:</B> Base +2500 flat evasion + <Gold>more evasion modifier</Gold>.</li>
                 <li><B>Hạn chế:</B> Evasion <B>không hoạt động với Spell</B> và <B>không giảm DoT</B>.</li>
-                <li><B>Breakpoint:</B> Nham <Gold>30,000-50,000 evasion</Gold> = ~70-80% chance to evade attacks.</li>
-                <li><B>Wind Dancer keystone:</B> -20% evasion nhung giảm 40% damage từ hit đầu tiền sau khi bị hit gan day. Rat mạnh cho evasion build.</li>
+                <li><B>Breakpoint:</B> Nhắm <Gold>30,000-50,000 evasion</Gold> = ~70-80% chance to evade attacks.</li>
+                <li><B>Wind Dancer keystone:</B> -20% evasion nhưng giảm 40% damage từ hit đầu tiên sau khi bị hit gần đây. Rất mạnh cho evasion build.</li>
               </ul>
             </Panel>
 
             <H3>8.3. Spell Suppression</H3>
             <Panel className="mb-4">
-              <div className="font-heading text-sm font-bold text-poe-gold mb-2">100% Spell Suppression = Bat Buoc</div>
+              <div className="font-heading text-sm font-bold text-poe-gold mb-2">100% Spell Suppression = Bắt Buộc</div>
               <ul className="space-y-1 text-sm">
-                <li><B>Hieu qua:</B> 100% Chance to Suppress Spell Damage = <Gold>giam 50% damage từ mỗi spell hit</Gold></li>
-                <li><B>Nguon:</B> Passive tree (Ranger/Shadow area), suffix trên Dexterity gear, Eldritch implicit</li>
-                <li><B>Target:</B> Luon nham <Gold>100% suppression</Gold>. O 80% thi 20% spell hit vẫn deal full damage &rarr; nguy hiem.</li>
-                <li><B>Ket hop:</B> Evasion + Spell Suppression là combo <Gold>hoat chinh</Gold> cho Ranger/Shadow build (ne attack, giảm spell).</li>
+                <li><B>Hiệu quả:</B> 100% Chance to Suppress Spell Damage = <Gold>giảm 50% damage từ mọi spell hit</Gold></li>
+                <li><B>Nguồn:</B> Passive tree (Ranger/Shadow area), suffix trên Dexterity gear, Eldritch implicit</li>
+                <li><B>Target:</B> Luôn nhắm <Gold>100% suppression</Gold>. Ở 80% thì 20% spell hit vẫn deal full damage &rarr; nguy hiểm.</li>
+                <li><B>Kết hợp:</B> Evasion + Spell Suppression là combo <Gold>hoạt chính</Gold> cho Ranger/Shadow build (né attack, giảm spell).</li>
               </ul>
             </Panel>
 
@@ -835,27 +835,27 @@ export default function EndgameStrategyPage() {
             <Panel className="mb-4">
               <div className="font-heading text-sm font-bold text-poe-gold mb-2">Max Res (Endgame Defense Core)</div>
               <ul className="space-y-1 text-sm">
-                <li><B>Default:</B> Max elemental res = 75%. Moi 1% tăng thêm = <Gold>4% less elemental damage taken</Gold> (tuong doi).</li>
-                <li><B>VD:</B> Tu 75% &rarr; 80% max res = giảm 20% elemental damage (tu 25% taken xuong 20% taken)</li>
-                <li><B>Tu 75% &rarr; 85% max res:</B> Giảm <Gold>40% elemental damage</Gold> tương đổi &mdash; cuc ky manh.</li>
-                <li><B>Nguon:</B> Purity of Fire/Ice/Lightning aura (+4-5% max), passive tree, Melding of thể Flesh (+max all res), flask suffix</li>
-                <li><B>Melding of thể Flesh:</B> Set tat ca max res = max res thấp nhat. Nếu bạn có 90% max fire res &rarr; tat ca thành 90%. Cần đầu từ lon nhung <Gold>cuc manh</Gold>.</li>
+                <li><B>Default:</B> Max elemental res = 75%. Mỗi 1% tăng thêm = <Gold>4% less elemental damage taken</Gold> (tương đối).</li>
+                <li><B>VD:</B> Từ 75% &rarr; 80% max res = giảm 20% elemental damage (từ 25% taken xuống 20% taken)</li>
+                <li><B>Từ 75% &rarr; 85% max res:</B> Giảm <Gold>40% elemental damage</Gold> tương đối &mdash; cực kỳ mạnh.</li>
+                <li><B>Nguồn:</B> Purity of Fire/Ice/Lightning aura (+4-5% max), passive tree, Melding of the Flesh (+max all res), flask suffix</li>
+                <li><B>Melding of the Flesh:</B> Set tất cả max res = max res thấp nhất. Nếu bạn có 90% max fire res &rarr; tất cả thành 90%. Cần đầu tư lớn nhưng <Gold>cực mạnh</Gold>.</li>
               </ul>
             </Panel>
 
-            <H3>8.5. Các layer bo sung quan trọng</H3>
+            <H3>8.5. Các layer bổ sung quan trọng</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Layer</th><th>Cach hoat dong</th><th>Breakpoint/Target</th></tr>
+                  <tr><th>Layer</th><th>Cách hoạt động</th><th>Breakpoint/Target</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td className="text-poe-gold font-semibold">Block</td><td>% có hoi block hoàn toàn 1 hit (attack hoac spell)</td><td>Cap <Gold>75%</Gold>. Glancing Blows keystone: x2 block nhung chỉ giảm 65% damage</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Life Recoup</td><td>20-40% damage taken được hoi lai trong 4 giay</td><td>Stack 30-50% &mdash; hoi cuc nhiều sau big hit</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Damage taken as</td><td>Convert physical damage taken thành elemental (vd: Lightning Coil: 30% phys as lightning)</td><td>Ket hop với max res cao để giảm phys damage</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Block</td><td>% cơ hội block hoàn toàn 1 hit (attack hoặc spell)</td><td>Cap <Gold>75%</Gold>. Glancing Blows keystone: x2 block nhưng chỉ giảm 65% damage</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Life Recoup</td><td>20-40% damage taken được hồi lại trong 4 giây</td><td>Stack 30-50% &mdash; hồi cực nhiều sau big hit</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Damage taken as</td><td>Convert physical damage taken thành elemental (vd: Lightning Coil: 30% phys as lightning)</td><td>Kết hợp với max res cao để giảm phys damage</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Fortify</td><td>Melee hit stack Fortification (max 20 stack) = <Gold>20% less hit damage taken</Gold></td><td>20 stack = cap</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Petrified Blood</td><td>50% damage từ hit o nua dưới life pool được spread ra 4 giay</td><td>Dung cho Low-Life build (Reserve 50%+ life)</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Guard Skills</td><td>Steelskin/Molten Shell/Immortal Call &mdash; tam thoi hap thu damage</td><td>CWDT level 1 + Immortal Call hoac Manual Molten Shell với high armour</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Petrified Blood</td><td>50% damage từ hit ở nửa dưới life pool được spread ra 4 giây</td><td>Dùng cho Low-Life build (Reserve 50%+ life)</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Guard Skills</td><td>Steelskin/Molten Shell/Immortal Call &mdash; tạm thời hấp thụ damage</td><td>CWDT level 1 + Immortal Call hoặc Manual Molten Shell với high armour</td></tr>
                 </tbody>
               </table>
             </div>
@@ -863,8 +863,8 @@ export default function EndgameStrategyPage() {
             <Tip>
               <B>Combo phòng thủ phổ biến nhất (3.24+):</B><br />
               <Gold>Determination + Grace + Defiance Banner + Spell Suppression 100% + 80%+ max res</Gold><br />
-              Đây là &ldquo;golden standard&rdquo; cho hau het build. Anh hưởng ~50% mana reservation nhung cuc ky dang.
-              Them Molten Shell (voi 40k+ armour) va bạn gan như bất từ trong T16.
+              Đây là &ldquo;golden standard&rdquo; cho hầu hết build. Ảnh hưởng ~50% mana reservation nhưng cực kỳ đáng.
+              Thêm Molten Shell (với 40k+ armour) và bạn gần như bất tử trong T16.
             </Tip>
           </Section>
 
@@ -873,27 +873,27 @@ export default function EndgameStrategyPage() {
              ═══════════════════════════════════════════════════════ */}
           <Section id="flasks" num="IX" title="Flask Management">
             <P>
-              Flask trong PoE là một phan quan trọng của defensive va offensive layer.
-              Với <B>5 flask slot</B>, bạn cần chon ky để cover tat ca các tru.
+              Flask trong PoE là một phần quan trọng của defensive và offensive layer.
+              Với <B>5 flask slot</B>, bạn cần chọn kỹ để cover tất cả các trụ.
             </P>
 
-            <H3>9.1. Flask Suffix (Ailment Immunity) &mdash; Thu Tu Uu Tien</H3>
+            <H3>9.1. Flask Suffix (Ailment Immunity) &mdash; Thứ Tự Ưu Tiên</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Uu Tien</th><th>Suffix</th><th>Hieu qua</th><th>Tại sao quan trọng</th></tr>
+                  <tr><th>Ưu Tiên</th><th>Suffix</th><th>Hiệu quả</th><th>Tại sao quan trọng</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td>1</td><td className="text-poe-gold font-semibold">of Staunching</td><td>Immune to Bleeding + remove Bleed</td><td>Bleed <Gold>giet ngay lap tuc</Gold> nếu bạn đi chuyen khi bị bleed</td></tr>
-                  <tr><td>2</td><td className="text-poe-gold font-semibold">of thể Walrus</td><td>Immune to Freeze + remove Freeze</td><td>Freeze = không đi chuyen được = chet</td></tr>
-                  <tr><td>3</td><td className="text-poe-gold font-semibold">of thể Skink</td><td>Immune to Shock + remove Shock</td><td>Shock tăng damage taken 15-50% &mdash; cuc nguy hiem</td></tr>
-                  <tr><td>4</td><td className="text-poe-gold font-semibold">of Dousing</td><td>Immune to Ignite + remove Ignite</td><td>Ignite DoT có thể rất cao o endgame</td></tr>
-                  <tr><td>5</td><td className="text-poe-gold font-semibold">of thể Owl</td><td>65% reduced Curse effect</td><td>Map curse mod (Vulnerability, Temporal Chains) rất kho chiu</td></tr>
+                  <tr><td>1</td><td className="text-poe-gold font-semibold">of Staunching</td><td>Immune to Bleeding + remove Bleed</td><td>Bleed <Gold>giết ngay lập tức</Gold> nếu bạn di chuyển khi bị bleed</td></tr>
+                  <tr><td>2</td><td className="text-poe-gold font-semibold">of the Walrus</td><td>Immune to Freeze + remove Freeze</td><td>Freeze = không di chuyển được = chết</td></tr>
+                  <tr><td>3</td><td className="text-poe-gold font-semibold">of the Skink</td><td>Immune to Shock + remove Shock</td><td>Shock tăng damage taken 15-50% &mdash; cực nguy hiểm</td></tr>
+                  <tr><td>4</td><td className="text-poe-gold font-semibold">of Dousing</td><td>Immune to Ignite + remove Ignite</td><td>Ignite DoT có thể rất cao ở endgame</td></tr>
+                  <tr><td>5</td><td className="text-poe-gold font-semibold">of the Owl</td><td>65% reduced Curse effect</td><td>Map curse mod (Vulnerability, Temporal Chains) rất khó chịu</td></tr>
                 </tbody>
               </table>
             </div>
 
-            <H3>9.2. Setup Flask Endgame Tieu Chuan</H3>
+            <H3>9.2. Setup Flask Endgame Tiêu Chuẩn</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
@@ -901,31 +901,31 @@ export default function EndgameStrategyPage() {
                 </thead>
                 <tbody>
                   <tr><td>1</td><td className="text-poe-gold font-semibold">Divine Life Flask</td><td>Seething/Panicked (instant)</td><td>of Staunching (bleed)</td><td>Used when Life reaches Low</td></tr>
-                  <tr><td>2</td><td className="text-poe-gold font-semibold">Granite Flask</td><td>Chemist&apos;s (giam charge)</td><td>of thể Walrus (freeze)</td><td>Used when Charges reach full</td></tr>
-                  <tr><td>3</td><td className="text-poe-gold font-semibold">Jade Flask</td><td>Chemist&apos;s</td><td>of thể Skink (shock)</td><td>Used when Charges reach full</td></tr>
-                  <tr><td>4</td><td className="text-poe-gold font-semibold">Quicksilver Flask</td><td>Alchemist&apos;s (tang effect)</td><td>of Dousing (ignite)</td><td>Used when Charges reach full</td></tr>
-                  <tr><td>5</td><td className="text-poe-gold font-semibold">Diamond/Silver Flask</td><td>Alchemist&apos;s</td><td>of thể Owl (curse)</td><td>Used when Charges reach full</td></tr>
+                  <tr><td>2</td><td className="text-poe-gold font-semibold">Granite Flask</td><td>Chemist&apos;s (giảm charge)</td><td>of the Walrus (freeze)</td><td>Used when Charges reach full</td></tr>
+                  <tr><td>3</td><td className="text-poe-gold font-semibold">Jade Flask</td><td>Chemist&apos;s</td><td>of the Skink (shock)</td><td>Used when Charges reach full</td></tr>
+                  <tr><td>4</td><td className="text-poe-gold font-semibold">Quicksilver Flask</td><td>Alchemist&apos;s (tăng effect)</td><td>of Dousing (ignite)</td><td>Used when Charges reach full</td></tr>
+                  <tr><td>5</td><td className="text-poe-gold font-semibold">Diamond/Silver Flask</td><td>Alchemist&apos;s</td><td>of the Owl (curse)</td><td>Used when Charges reach full</td></tr>
                 </tbody>
               </table>
             </div>
 
             <H3>9.3. Utility Flask cho DPS</H3>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Diamond Flask:</B> Lucky crit (roll crit chance 2 lan, lay cao hon) &mdash; <Gold>~30-40% more crit effective</Gold></span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Diamond Flask:</B> Lucky crit (roll crit chance 2 lần, lấy cao hơn) &mdash; <Gold>~30-40% more crit effective</Gold></span></li>
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Silver Flask:</B> Onslaught (20% attack/cast/movement speed) &mdash; <Gold>huge DPS + movespeed boost</Gold></span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Bottled Faith:</B> Unique Sulphur flask &mdash; Consecrated Ground tăng <Gold>2% base crit + enemies take 10% increased damage</Gold>. Gia <Gold>5-20 Divine</Gold>.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Dying Sun:</B> Unique Ruby flask &mdash; +2 projectiles. Cho build projectile (Tornado Shot, LA). Gia <Gold>1-5 Divine</Gold>.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Bottled Faith:</B> Unique Sulphur flask &mdash; Consecrated Ground tăng <Gold>2% base crit + enemies take 10% increased damage</Gold>. Giá <Gold>5-20 Divine</Gold>.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Dying Sun:</B> Unique Ruby flask &mdash; +2 projectiles. Cho build projectile (Tornado Shot, LA). Giá <Gold>1-5 Divine</Gold>.</span></li>
             </ul>
 
             <H3>9.4. Flask Enchantment quan trọng</H3>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>&ldquo;Used when Charges reach full&rdquo;</B> &mdash; Tu động dùng khi đây charge. <Gold>Quan trong nhat</Gold> cho utility flask.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>&ldquo;Used when you Hit a Rare or Unique Enemy&rdquo;</B> &mdash; Tot cho boss flask.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>&ldquo;Used when you take a Savage Hit&rdquo;</B> &mdash; Tot cho Life flask phòng thủ.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>&ldquo;Used when Charges reach full&rdquo;</B> &mdash; Tự động dùng khi đầy charge. <Gold>Quan trọng nhất</Gold> cho utility flask.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>&ldquo;Used when you Hit a Rare or Unique Enemy&rdquo;</B> &mdash; Tốt cho boss flask.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>&ldquo;Used when you take a Savage Hit&rdquo;</B> &mdash; Tốt cho Life flask phòng thủ.</span></li>
             </ul>
             <Tip>
-              <B>Instilling Orb</B> để roll enchant trên flask. <B>Enkindling Orb</B> để tăng effect nhung flask không recharge khi dang active.
-              Dung Instilling Orb cho utility flask (auto-use) va Enkindling Orb cho flask mà bạn chỉ cần khi boss fight.
+              <B>Instilling Orb</B> để roll enchant trên flask. <B>Enkindling Orb</B> để tăng effect nhưng flask không recharge khi đang active.
+              Dùng Instilling Orb cho utility flask (auto-use) và Enkindling Orb cho flask mà bạn chỉ cần khi boss fight.
             </Tip>
           </Section>
 
@@ -934,63 +934,63 @@ export default function EndgameStrategyPage() {
              ═══════════════════════════════════════════════════════ */}
           <Section id="league-profit" num="X" title="League Mechanic Profit Ranking">
             <P>
-              Không phải mechanic nao cũng loi nhuan như nhau. Duoi đây là bang xep hang dua tren
-              <B> trung binh currency/gio</B> với build có clear speed tốt (T16 mapping).
-              Gia trị thay đổi tuy league, nhung thu từ tương đổi on dinh.
+              Không phải mechanic nào cũng lợi nhuận như nhau. Dưới đây là bảng xếp hạng dựa trên
+              <B> trung bình currency/giờ</B> với build có clear speed tốt (T16 mapping).
+              Giá trị thay đổi tùy league, nhưng thứ tự tương đối ổn định.
             </P>
 
-            <H3>10.1. Bang xep hang</H3>
+            <H3>10.1. Bảng xếp hạng</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Tier</th><th>Mechanic</th><th>Currency/gio (~)</th><th>Dau tu</th><th>Ghi chu</th></tr>
+                  <tr><th>Tier</th><th>Mechanic</th><th>Currency/giờ (~)</th><th>Đầu tư</th><th>Ghi chú</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td><Gold>S</Gold></td><td className="text-poe-gold font-semibold">Delirium (juiced)</td><td><Gold>500-2000c+</Gold></td><td>Rat cao</td><td>Can build manh, Delirium Orb dat. Reward scale với juice level.</td></tr>
-                  <tr><td><Gold>S</Gold></td><td className="text-poe-gold font-semibold">Expedition</td><td><Gold>300-800c</Gold></td><td>Thap-Trung</td><td>Tujen currency + Logbook = consistent income. Không cần build qua manh.</td></tr>
-                  <tr><td><Gold>A</Gold></td><td className="text-poe-gold font-semibold">Essence</td><td><Gold>200-400c</Gold></td><td>Rat thap</td><td>Alch-and-go. Deafening Essence luôn bạn duoc.</td></tr>
-                  <tr><td><Gold>A</Gold></td><td className="text-poe-gold font-semibold">Heist (Blueprint)</td><td><Gold>300-700c</Gold></td><td>Thap</td><td>Stacked Deck + raw currency. Cần setup rogue equipment.</td></tr>
-                  <tr><td><Gold>A</Gold></td><td className="text-poe-gold font-semibold">Breach (juiced)</td><td><Gold>200-500c</Gold></td><td>Trung</td><td>Breachstone + splinter. Tot hon khi ket hop Delirium.</td></tr>
-                  <tr><td><Gold>B</Gold></td><td className="text-poe-gold font-semibold">Legion</td><td><Gold>200-400c</Gold></td><td>Thap-Trung</td><td>Incubator + Timeless Splinter. Cần wide AoE build.</td></tr>
-                  <tr><td><Gold>B</Gold></td><td className="text-poe-gold font-semibold">Harbinger</td><td><Gold>150-350c</Gold></td><td>Rat thap</td><td>Ancient Orb + Exalted Shard. On dinh nhung không cao.</td></tr>
-                  <tr><td><Gold>B</Gold></td><td className="text-poe-gold font-semibold">Strongbox (Ambush)</td><td><Gold>150-300c</Gold></td><td>Rat thap</td><td>Diviner + Arcanist Strongbox. Ket hop tốt với nhiều mechanic khac.</td></tr>
-                  <tr><td><Gold>B</Gold></td><td className="text-poe-gold font-semibold">Ritual</td><td><Gold>150-300c</Gold></td><td>Thap</td><td>Lay currency/item từ Ritual reward. Cần defer item dat.</td></tr>
-                  <tr><td><Gold>C</Gold></td><td className="text-poe-gold font-semibold">Betrayal</td><td><Gold>100-250c</Gold></td><td>Setup phuc tap</td><td>Can setup Syndicate board dung. Aisling T4 Veiled Slam rất giá tri.</td></tr>
-                  <tr><td><Gold>C</Gold></td><td className="text-poe-gold font-semibold">Metamorph</td><td><Gold>100-200c</Gold></td><td>Thap</td><td>Drop Catalyst (gia trung binh). Tot hon đầu league.</td></tr>
-                  <tr><td><Gold>C</Gold></td><td className="text-poe-gold font-semibold">Abyss</td><td><Gold>80-150c</Gold></td><td>Thap</td><td>Stygian Vise + Abyss Jewel. Gia giảm nhanh qua league.</td></tr>
+                  <tr><td><Gold>S</Gold></td><td className="text-poe-gold font-semibold">Delirium (juiced)</td><td><Gold>500-2000c+</Gold></td><td>Rất cao</td><td>Cần build mạnh, Delirium Orb đắt. Reward scale với juice level.</td></tr>
+                  <tr><td><Gold>S</Gold></td><td className="text-poe-gold font-semibold">Expedition</td><td><Gold>300-800c</Gold></td><td>Thấp-Trung</td><td>Tujen currency + Logbook = consistent income. Không cần build quá mạnh.</td></tr>
+                  <tr><td><Gold>A</Gold></td><td className="text-poe-gold font-semibold">Essence</td><td><Gold>200-400c</Gold></td><td>Rất thấp</td><td>Alch-and-go. Deafening Essence luôn bán được.</td></tr>
+                  <tr><td><Gold>A</Gold></td><td className="text-poe-gold font-semibold">Heist (Blueprint)</td><td><Gold>300-700c</Gold></td><td>Thấp</td><td>Stacked Deck + raw currency. Cần setup rogue equipment.</td></tr>
+                  <tr><td><Gold>A</Gold></td><td className="text-poe-gold font-semibold">Breach (juiced)</td><td><Gold>200-500c</Gold></td><td>Trung</td><td>Breachstone + splinter. Tốt hơn khi kết hợp Delirium.</td></tr>
+                  <tr><td><Gold>B</Gold></td><td className="text-poe-gold font-semibold">Legion</td><td><Gold>200-400c</Gold></td><td>Thấp-Trung</td><td>Incubator + Timeless Splinter. Cần wide AoE build.</td></tr>
+                  <tr><td><Gold>B</Gold></td><td className="text-poe-gold font-semibold">Harbinger</td><td><Gold>150-350c</Gold></td><td>Rất thấp</td><td>Ancient Orb + Exalted Shard. Ổn định nhưng không cao.</td></tr>
+                  <tr><td><Gold>B</Gold></td><td className="text-poe-gold font-semibold">Strongbox (Ambush)</td><td><Gold>150-300c</Gold></td><td>Rất thấp</td><td>Diviner + Arcanist Strongbox. Kết hợp tốt với nhiều mechanic khác.</td></tr>
+                  <tr><td><Gold>B</Gold></td><td className="text-poe-gold font-semibold">Ritual</td><td><Gold>150-300c</Gold></td><td>Thấp</td><td>Lấy currency/item từ Ritual reward. Cần defer item đắt.</td></tr>
+                  <tr><td><Gold>C</Gold></td><td className="text-poe-gold font-semibold">Betrayal</td><td><Gold>100-250c</Gold></td><td>Setup phức tạp</td><td>Cần setup Syndicate board đúng. Aisling T4 Veiled Slam rất giá trị.</td></tr>
+                  <tr><td><Gold>C</Gold></td><td className="text-poe-gold font-semibold">Metamorph</td><td><Gold>100-200c</Gold></td><td>Thấp</td><td>Drop Catalyst (giá trung bình). Tốt hơn đầu league.</td></tr>
+                  <tr><td><Gold>C</Gold></td><td className="text-poe-gold font-semibold">Abyss</td><td><Gold>80-150c</Gold></td><td>Thấp</td><td>Stygian Vise + Abyss Jewel. Giá giảm nhanh qua league.</td></tr>
                 </tbody>
               </table>
             </div>
 
             <Tip>
-              <B>Nguyen tac chung:</B> Chon 1-2 mechanic chinh, spec Atlas tree <Gold>100% vao do</Gold>.
-              Chuyen mon hoa luôn tốt hon dan trai. Nếu bạn choi 3 gio/ngay, chon 1 mechanic va master no.
-              Nếu bạn choi 8+ gio/ngay, có thể lam 2 mechanic luan phien.
+              <B>Nguyên tắc chung:</B> Chọn 1-2 mechanic chính, spec Atlas tree <Gold>100% vào đó</Gold>.
+              Chuyên môn hóa luôn tốt hơn dàn trải. Nếu bạn chơi 3 giờ/ngày, chọn 1 mechanic và master nó.
+              Nếu bạn chơi 8+ giờ/ngày, có thể làm 2 mechanic luân phiên.
             </Tip>
           </Section>
 
           {/* ═══════════════════════════════════════════════════════
               XI. JUICING MAPS
              ═══════════════════════════════════════════════════════ */}
-          <Section id="juicing" num="XI" title="Juicing Maps &mdash; Tăng Reward Toi Da">
+          <Section id="juicing" num="XI" title="Juicing Maps &mdash; Tăng Reward Tối Đa">
             <P>
-              &ldquo;Juicing&rdquo; là quá trình thêm nhiều modifier va content vao map để <B>tang dang ke loot</B>.
-              Tu 3.24, <B>Sextant đã bị xoa</B> va thay thể bang he thong <B>Scarab moi</B> (hang tram loai).
+              &ldquo;Juicing&rdquo; là quá trình thêm nhiều modifier và content vào map để <B>tăng đáng kể loot</B>.
+              Từ 3.24, <B>Sextant đã bị xóa</B> và thay thế bằng hệ thống <B>Scarab mới</B> (hàng trăm loại).
             </P>
 
-            <H3>11.1. Thanh phan juice</H3>
+            <H3>11.1. Thành phần juice</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Thanh phan</th><th>Chi tiet</th><th>Chi phi (~)</th></tr>
+                  <tr><th>Thành phần</th><th>Chi tiết</th><th>Chi phí (~)</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td className="text-poe-gold font-semibold">Map quality + rarity</td><td>Alch map &rarr; Chisel 20% quality &rarr; Vaal (optional, risky). IIQ trên map tăng loot <Gold>tuyen tinh</Gold>.</td><td>1-3c/map</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Scarab (3-4 slots)</td><td>Moi scarab thêm 1 mechanic/buff. Map device có 3 slot (nang cấp len 4-5).</td><td>2-50c/scarab</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Map Device Craft</td><td>Dung Chaos để chon map device mod: Fortune (IIQ), Domination (Shrine), Beyond, etc.</td><td>3-16c/craft</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Fragment (sacrifice/mortal)</td><td>Moi fragment thêm <Gold>5% IIQ</Gold> cho map. 4 fragment = +20% IIQ.</td><td>1-5c/set</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Delirium Orb</td><td>Apply Delirium layer len map (stack len 5). <Gold>Tang không lo so quai va reward</Gold>.</td><td>5-30c/orb x 1-5</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Atlas passive</td><td>Cac node tăng pack size, monster quantity, có hoi spawn mechanic</td><td>Free</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Map quality + rarity</td><td>Alch map &rarr; Chisel 20% quality &rarr; Vaal (optional, risky). IIQ trên map tăng loot <Gold>tuyến tính</Gold>.</td><td>1-3c/map</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Scarab (3-4 slots)</td><td>Mỗi scarab thêm 1 mechanic/buff. Map device có 3 slot (nâng cấp lên 4-5).</td><td>2-50c/scarab</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Map Device Craft</td><td>Dùng Chaos để chọn map device mod: Fortune (IIQ), Domination (Shrine), Beyond, etc.</td><td>3-16c/craft</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Fragment (sacrifice/mortal)</td><td>Mỗi fragment thêm <Gold>5% IIQ</Gold> cho map. 4 fragment = +20% IIQ.</td><td>1-5c/set</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Delirium Orb</td><td>Apply Delirium layer lên map (stack lên 5). <Gold>Tăng khổng lồ số quái và reward</Gold>.</td><td>5-30c/orb x 1-5</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Atlas passive</td><td>Các node tăng pack size, monster quantity, cơ hội spawn mechanic</td><td>Free</td></tr>
                 </tbody>
               </table>
             </div>
@@ -998,35 +998,35 @@ export default function EndgameStrategyPage() {
             <H3>11.2. Scarab Combo theo Budget</H3>
             <H4>Budget (5-15c total/map):</H4>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Harbinger Scarab (them Harbinger) + Ambush Scarab (them Strongbox) + Breach Scarab (them Breach)</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Thu nhap ky vong: <Gold>~300-500c/gio</Gold></span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Harbinger Scarab (thêm Harbinger) + Ambush Scarab (thêm Strongbox) + Breach Scarab (thêm Breach)</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Thu nhập kỳ vọng: <Gold>~300-500c/giờ</Gold></span></li>
             </ul>
             <H4>Mid-tier (20-60c total/map):</H4>
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Legion Scarab + Breach Scarab + Beyond Scarab + Divination Scarab</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Map Device: Fortune (+8% IIQ) hoac Beyond</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Map Device: Fortune (+8% IIQ) hoặc Beyond</span></li>
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>4 sacrifice fragment (+20% IIQ)</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Thu nhap ky vong: <Gold>~800-1200c/gio</Gold></span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Thu nhập kỳ vọng: <Gold>~800-1200c/giờ</Gold></span></li>
             </ul>
             <H4>Full juice (100-300c+ total/map):</H4>
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>5 Delirium Orb (stack 100% Delirium) + 4 Scarab cao cấp + Beyond map device + Fragment</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Can build <Gold>rat manh</Gold> (50M+ DPS) để clear duoc. Mon = Beyond boss + Delirium reward + rare mob loot</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Thu nhap ky vong: <Gold>~1500-3000c+/gio</Gold> (party play có thể cao hon)</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Cần build <Gold>rất mạnh</Gold> (50M+ DPS) để clear được. Món = Beyond boss + Delirium reward + rare mob loot</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span>Thu nhập kỳ vọng: <Gold>~1500-3000c+/gio</Gold> (party play có thể cao hơn)</span></li>
             </ul>
 
-            <H3>11.3. Scarab dang chu y (post-3.24 rework)</H3>
+            <H3>11.3. Scarab đáng chú ý (post-3.24 rework)</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Scarab</th><th>Hieu qua</th><th>Gia tri</th></tr>
+                  <tr><th>Scarab</th><th>Hiệu quả</th><th>Giá trị</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td className="text-poe-gold font-semibold">Divination Scarab of Completion</td><td>Tang có hoi div card drop + bonus khi full stack</td><td>Dat nhung reward cao cho Apothecary/Doctor farming</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Beyond Scarab of thể Invasion</td><td>Tang so luong Beyond monster, mỗi rare kill spawn Beyond portal</td><td>Them loot + exp không lo</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Expedition Scarab of Archaeology</td><td>Dam bao Expedition spawn trong map</td><td>Core cho Expedition farming</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Breach Scarab of Lordship</td><td>Tang có hoi Breachlord spawn trong Breach</td><td>Breachlord drop Blessing + unique</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Delirium Scarab of Delusions</td><td>Random 1-5 Delirium layer mien phi</td><td>Budget Delirium alternative</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Divination Scarab of Completion</td><td>Tăng cơ hội div card drop + bonus khi full stack</td><td>Đắt nhưng reward cao cho Apothecary/Doctor farming</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Beyond Scarab of the Invasion</td><td>Tăng số lượng Beyond monster, mỗi rare kill spawn Beyond portal</td><td>Thêm loot + exp khổng lồ</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Expedition Scarab of Archaeology</td><td>Đảm bảo Expedition spawn trong map</td><td>Core cho Expedition farming</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Breach Scarab of Lordship</td><td>Tăng cơ hội Breachlord spawn trong Breach</td><td>Breachlord drop Blessing + unique</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Delirium Scarab of Delusions</td><td>Random 1-5 Delirium layer miễn phí</td><td>Budget Delirium alternative</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Ambush Scarab of Potency</td><td>Strongbox có thêm mod, tăng reward</td><td>Diviner Strongbox = div card bomb</td></tr>
                 </tbody>
               </table>
@@ -1036,74 +1036,74 @@ export default function EndgameStrategyPage() {
           {/* ═══════════════════════════════════════════════════════
               XII. DELVE STRATEGY
              ═══════════════════════════════════════════════════════ */}
-          <Section id="delve" num="XII" title="Delve Strategy &mdash; Khai Thac Azurite Mine">
+          <Section id="delve" num="XII" title="Delve Strategy &mdash; Khai Thác Azurite Mine">
             <P>
-              Delve là he thong mine exploration với reward  riêng biet: <B>Fossil, resonator, va rare item</B>.
-              Đây là có thể là nguồn thu nhap <B>rat on dinh</B> nếu bạn biet đi đầu va farm gi.
+              Delve là hệ thống mine exploration với reward riêng biệt: <B>Fossil, resonator, và rare item</B>.
+              Đây có thể là nguồn thu nhập <B>rất ổn định</B> nếu bạn biết đi đâu và farm gì.
             </P>
 
-            <H3>12.1. Do sau toi uu</H3>
+            <H3>12.1. Độ sâu tối ưu</H3>
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Depth 250-350:</B> Sweet spot cho hau het build. Reward tot, đó kho chua qua cao.</span>
+                <span><B>Depth 250-350:</B> Sweet spot cho hầu hết build. Reward tốt, độ khó chưa quá cao.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Depth 500+:</B> Reward tăng dang ke, nhung quai có <Gold>huge resist + life scaling</Gold>. Cần build chuyen dung.</span>
+                <span><B>Depth 500+:</B> Reward tăng đáng kể, nhưng quái có <Gold>huge resist + life scaling</Gold>. Cần build chuyên dụng.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Depth 600-1000:</B> Vung &ldquo;deep delve&rdquo; &mdash; fossil rất nhieu, City biome thường xuyên hon. Chi cho build cuc manh.</span>
+                <span><B>Depth 600-1000:</B> Vùng &ldquo;deep delve&rdquo; &mdash; fossil rất nhiều, City biome thường xuyên hơn. Chỉ cho build cực mạnh.</span>
               </li>
             </ul>
 
-            <H3>12.2. Node loi nhuan cao nhat</H3>
+            <H3>12.2. Node lợi nhuận cao nhất</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Node Type</th><th>Reward</th><th>Gia trị (~)</th></tr>
+                  <tr><th>Node Type</th><th>Reward</th><th>Giá trị (~)</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td className="text-poe-gold font-semibold">Fossil Node (&ldquo;Contains Fossils&rdquo;)</td><td>2-4 fossil mỗi node. Moi fossil = 1-10c</td><td><Gold>5-40c/node</Gold></td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Fossil Node (&ldquo;Contains Fossils&rdquo;)</td><td>2-4 fossil mỗi node. Mỗi fossil = 1-10c</td><td><Gold>5-40c/node</Gold></td></tr>
                   <tr><td className="text-poe-gold font-semibold">City Biome (Abyssal City, Vaal City)</td><td>Boss drop unique + rare fossil. Side room có nhiều chest.</td><td><Gold>50-200c/city</Gold></td></tr>
-                  <tr><td className="text-poe-gold font-semibold">&ldquo;Contains Minion or Aura Items&rdquo;</td><td>Co thể drop item giá trị cao, đặc biệt đầu league</td><td><Gold>20-100c</Gold></td></tr>
+                  <tr><td className="text-poe-gold font-semibold">&ldquo;Contains Minion or Aura Items&rdquo;</td><td>Có thể drop item giá trị cao, đặc biệt đầu league</td><td><Gold>20-100c</Gold></td></tr>
                   <tr><td className="text-poe-gold font-semibold">&ldquo;Contains Chaos Items&rdquo;</td><td>Chaos-related unique/item</td><td>10-50c</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Smuggler&apos;s Stash</td><td>Currency + fossil lon</td><td><Gold>50-100c</Gold></td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Smuggler&apos;s Stash</td><td>Currency + fossil lớn</td><td><Gold>50-100c</Gold></td></tr>
                 </tbody>
               </table>
             </div>
 
-            <H3>12.3. Biome ưu tien</H3>
+            <H3>12.3. Biome ưu tiên</H3>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Fungal Caverns:</B> Drop <Gold>Hollow Fossil</Gold> (5-15c) va Dense Fossil</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Petrified Forest:</B> Drop <Gold>Pristine + Jagged Fossil</Gold> &mdash; luôn có giá tri</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Fungal Caverns:</B> Drop <Gold>Hollow Fossil</Gold> (5-15c) và Dense Fossil</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Petrified Forest:</B> Drop <Gold>Pristine + Jagged Fossil</Gold> &mdash; luôn có giá trị</span></li>
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Sulphur Vents:</B> Drop <Gold>Scorched + Frigid Fossil</Gold></span></li>
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Magma Fissure:</B> Fossil output cao</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Abyssal Depths:</B> Boss + City node &mdash; <Gold>gia trị cao nhat</Gold></span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Abyssal Depths:</B> Boss + City node &mdash; <Gold>giá trị cao nhất</Gold></span></li>
             </ul>
 
             <H3>12.4. Dark Farming (Advanced)</H3>
             <P>
-              Dark farming là kỹ thuật đi ra ngoai vung sang của Crawler để <B>thu thấp fossil va chest trong bong toi</B>.
+              Dark farming là kỹ thuật đi ra ngoài vùng sáng của Crawler để <B>thu thập fossil và chest trong bóng tối</B>.
             </P>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Can:</B> Phasing (di xuyên qua quai), movement speed cao (200%+), Darkness Resistance (flare + node)</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Cach lam:</B> Chay path, dùng flare để thấp sang tam, nhanh chong mo chest roi chay tiep.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Build:</B> Pathfinder với Phase Run, Quicksilver Flask, va Darkness Resistance trên Sulphite node.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Thu nhap:</B> Có thể đạt <Gold>300-600c/gio</Gold> o depth 300+ chỉ từ fossil va chest.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Cần:</B> Phasing (đi xuyên qua quái), movement speed cao (200%+), Darkness Resistance (flare + node)</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Cách làm:</B> Chạy path, dùng flare để thắp sáng tạm, nhanh chóng mở chest rồi chạy tiếp.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Build:</B> Pathfinder với Phase Run, Quicksilver Flask, và Darkness Resistance trên Sulphite node.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Thu nhap:</B> Có thể đạt <Gold>300-600c/giờ</Gold> ở depth 300+ chỉ từ fossil và chest.</span></li>
             </ul>
             <Warning>
-              <B>Lưu ý:</B> Dark farming cần thuc hanh nhieu. Chet trong darkness = mat tat ca loot chua pick up.
-              Cần đầu từ Sulphite (tu Niko mission va Scarab) để có thể delve lien tuc.
+              <B>Lưu ý:</B> Dark farming cần thực hành nhiều. Chết trong darkness = mất tất cả loot chưa pick up.
+              Cần đầu tư Sulphite (từ Niko mission và Scarab) để có thể delve liên tục.
             </Warning>
 
             <H3>12.5. Route planning</H3>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Uu tiền 1:</B> Tim City biome gan nhất (dac biet có boss node)</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Uu tiền 2:</B> Specialty node (&ldquo;Contains Minion Items&rdquo;, &ldquo;Contains Fossils&rdquo;)</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Uu tiền 3:</B> Di qua biome tốt (Fungal Caverns, Petrified Forest) va nhất T3 Azurite, Currency, Atlas node doc duong</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Di ngang (lateral):</B> O depth toi ưu (300-500), đi ngang để quet nhiều node thay vì đi xuong sau them.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Ưu tiên 1:</B> Tìm City biome gần nhất (đặc biệt có boss node)</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Ưu tiên 2:</B> Specialty node (&ldquo;Contains Minion Items&rdquo;, &ldquo;Contains Fossils&rdquo;)</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Ưu tiên 3:</B> Đi qua biome tốt (Fungal Caverns, Petrified Forest) và nhặt T3 Azurite, Currency, Atlas node dọc đường</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Đi ngang (lateral):</B> Ở depth tối ưu (300-500), đi ngang để quét nhiều node thay vì đi xuống sâu thêm.</span></li>
             </ul>
           </Section>
 
@@ -1112,21 +1112,21 @@ export default function EndgameStrategyPage() {
              ═══════════════════════════════════════════════════════ */}
           <Section id="heist" num="XIII" title="Heist Blueprints &mdash; Grand Heist Farming">
             <P>
-              Heist là nguồn thu nhap <B>on dinh bac nhat</B> trong game, đặc biệt cho player không thich mapping.
-              Grand Heist (Blueprint) cho reward cao hon nhiều so với Contract thuong.
+              Heist là nguồn thu nhập <B>ổn định bậc nhất</B> trong game, đặc biệt cho player không thích mapping.
+              Grand Heist (Blueprint) cho reward cao hơn nhiều so với Contract thường.
             </P>
 
-            <H3>13.1. Loại Blueprint loi nhuan cao nhat</H3>
+            <H3>13.1. Loại Blueprint lợi nhuận cao nhất</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Blueprint Target</th><th>Reward</th><th>Loi nhuan/run (~)</th></tr>
+                  <tr><th>Blueprint Target</th><th>Reward</th><th>Lợi nhuận/run (~)</th></tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td className="text-poe-gold font-semibold">Replicas / Experimented Items</td>
                     <td>Replica unique item (Replica Farrul&apos;s Fur, Replica Headhunter, etc.)</td>
-                    <td><Gold>5-50c</Gold> (RNG vao rare replica)</td>
+                    <td><Gold>5-50c</Gold> (RNG vào rare replica)</td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">Gems (Unusual / Quality)</td>
@@ -1136,11 +1136,11 @@ export default function EndgameStrategyPage() {
                   <tr>
                     <td className="text-poe-gold font-semibold">Currency / Deception</td>
                     <td>Stacked Deck, raw currency, Exalted Orb</td>
-                    <td><Gold>15-50c</Gold> (on dinh nhat)</td>
+                    <td><Gold>15-50c</Gold> (ổn định nhất)</td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">Enchanted Armaments</td>
-                    <td>Enchanted item, enchanted base (co thể có lab enchant)</td>
+                    <td>Enchanted item, enchanted base (có thể có lab enchant)</td>
                     <td>5-30c</td>
                   </tr>
                 </tbody>
@@ -1151,81 +1151,81 @@ export default function EndgameStrategyPage() {
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Khong cần reveal het:</B> Moi Blueprint đã có 1 wing revealed san. Reveal thêm wing ton Rogue&apos;s Marker va thời gian &mdash; thường không dang.</span>
+                <span><B>Không cần reveal hết:</B> Mỗi Blueprint đã có 1 wing revealed sẵn. Reveal thêm wing tốn Rogue&apos;s Marker và thời gian &mdash; thường không đáng.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Giam giá reveal:</B> Dung <B>Gianna</B> (rogue) trong Contract <B>Deception</B> để nhân <Gold>40% giảm giá reveal</Gold>.</span>
+                <span><B>Giảm giá reveal:</B> Dùng <B>Gianna</B> (rogue) trong Contract <B>Deception</B> để nhận <Gold>40% giảm giá reveal</Gold>.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Khi nao nên reveal:</B> Chi reveal wing 2 nếu Blueprint có <Gold>reward room rất tot</Gold> (Currency room, Gem room). Tính toan: reveal cost vs expected reward.</span>
+                <span><B>Khi nào nên reveal:</B> Chỉ reveal wing 2 nếu Blueprint có <Gold>reward room rất tốt</Gold> (Currency room, Gem room). Tính toán: reveal cost vs expected reward.</span>
               </li>
             </ul>
 
             <H3>13.3. Trinket Farming</H3>
             <P>
-              Trinket là trang bị đặc biệt <B>chi hoạt động trong Heist</B>. Chung luôn drop <B>corrupted</B> từ Grand Heist.
+              Trinket là trang bị đặc biệt <B>chỉ hoạt động trong Heist</B>. Chúng luôn drop <B>corrupted</B> từ Grand Heist.
             </P>
-            <H4>Mod trinket đạt nhat:</H4>
+            <H4>Mod trinket đắt nhất:</H4>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Mod</th><th>Hieu qua</th><th>Gia trị (~)</th></tr>
+                  <tr><th>Mod</th><th>Hiệu quả</th><th>Giá trị (~)</th></tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td className="text-poe-gold font-semibold">1% Chaos &rarr; Divine</td>
-                    <td>1% có hoi Chaos Orb drop thành <Gold>Divine Orb</Gold> trong Heist</td>
+                    <td>1% cơ hội Chaos Orb drop thành <Gold>Divine Orb</Gold> trong Heist</td>
                     <td><Gold>10-50 Divine</Gold></td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">3% Regal &rarr; Divine</td>
-                    <td>3% có hoi Regal Orb drop thành Divine Orb</td>
+                    <td>3% cơ hội Regal Orb drop thành Divine Orb</td>
                     <td><Gold>5-20 Divine</Gold></td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">3% Basic Currency Duplicated</td>
-                    <td>3% có hoi currency drop được nhân doi</td>
+                    <td>3% cơ hội currency drop được nhân đôi</td>
                     <td>5-15 Divine</td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">Rogue&apos;s Marker Duplicate</td>
-                    <td>10% có hoi Smuggler&apos;s Cache duplicate Rogue&apos;s Marker</td>
+                    <td>10% cơ hội Smuggler&apos;s Cache duplicate Rogue&apos;s Marker</td>
                     <td>1-5 Divine</td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <Tip>
-              <B>Trinket farming tip:</B> Trinket drop corrupted nên <B>khong thể craft</B> binh thuong.
+              <B>Trinket farming tip:</B> Trinket drop corrupted nên <B>không thể craft</B> bình thường.
               Có thể dùng <B>Tainted currency</B> (Tainted Orb of Fusing, etc.) để modify.
-              Nếu drop trinket với mod &ldquo;1% Chaos &rarr; Divine&rdquo;, giữ no va farm Heist liên tục &mdash;
-              mỗi Heist run sẽ có khoảng 30-50 Chaos Orb drop, 1% = trung binh <Gold>1 Divine mỗi 2-3 run</Gold>.
+              Nếu drop trinket với mod &ldquo;1% Chaos &rarr; Divine&rdquo;, giữ nó và farm Heist liên tục &mdash;
+              mỗi Heist run sẽ có khoảng 30-50 Chaos Orb drop, 1% = trung bình <Gold>1 Divine mỗi 2-3 run</Gold>.
             </Tip>
 
-            <H3>13.4. Rogue toi uu</H3>
+            <H3>13.4. Rogue tối ưu</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Rogue</th><th>Job</th><th>Dung cho</th></tr>
+                  <tr><th>Rogue</th><th>Job</th><th>Dùng cho</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td className="text-poe-gold font-semibold">Gianna</td><td>Deception</td><td><Gold>Giam 40% reveal cost</Gold>. Dung trong Contract để nhân discount.</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Karst</td><td>Lockpicking</td><td>Mo chest nhanh nhat. Uu tiền cho Blueprint với nhiều locked chest.</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Niles</td><td>Counter-Thaumaturgy</td><td>Vo hiệu hoa phep. Tot cho Blueprint với nhiều trap.</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Vinderi</td><td>Demolition</td><td><Gold>Co hoi duplicate</Gold> reward từ chest. Cuc ky giá trị cho Blueprint.</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Gianna</td><td>Deception</td><td><Gold>Giảm 40% reveal cost</Gold>. Dùng trong Contract để nhận discount.</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Karst</td><td>Lockpicking</td><td>Mở chest nhanh nhất. Ưu tiên cho Blueprint với nhiều locked chest.</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Niles</td><td>Counter-Thaumaturgy</td><td>Vô hiệu hóa phép. Tốt cho Blueprint với nhiều trap.</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Vinderi</td><td>Demolition</td><td><Gold>Cơ hội duplicate</Gold> reward từ chest. Cực kỳ giá trị cho Blueprint.</td></tr>
                 </tbody>
               </table>
             </div>
 
-            <H3>13.5. Tips toi ưu Heist</H3>
+            <H3>13.5. Tips tối ưu Heist</H3>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Scour Blueprint rare/magic:</B> Additional rarity/mods trên Blueprint <B>khong tăng reward</B> nhung lam Blueprint kho hon. Luon Scour ve normal.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Toc đó là tien:</B> Chay nhanh nhất có the. Mo chest, lay reward, chay ra. Không cần giet het quai.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Contract farming cho marker:</B> Chay Contract Deception (nhanh nhat) để kiem Rogue&apos;s Marker nuoi Blueprint.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Stacked Deck:</B> Da so loi nhuan từ Heist là Stacked Deck. <Gold>Mo het</Gold> (don&apos;t sell sealed) vì expected value khi mo cao hon bạn sealed.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Rogue equipment:</B> Nang cấp gear cho Rogue (tang reduced alert, toc đó job). Moi upgrade giảm thời gian chay dang ke.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Scour Blueprint rare/magic:</B> Additional rarity/mods trên Blueprint <B>không tăng reward</B> nhưng làm Blueprint khó hơn. Luôn Scour về normal.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Tốc độ là tiền:</B> Chạy nhanh nhất có thể. Mở chest, lấy reward, chạy ra. Không cần giết hết quái.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Contract farming cho marker:</B> Chạy Contract Deception (nhanh nhất) để kiếm Rogue&apos;s Marker nuôi Blueprint.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Stacked Deck:</B> Đa số lợi nhuận từ Heist là Stacked Deck. <Gold>Mở hết</Gold> (don&apos;t sell sealed) vì expected value khi mở cao hơn bán sealed.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Rogue equipment:</B> Nâng cấp gear cho Rogue (tăng reduced alert, tốc độ job). Mỗi upgrade giảm thời gian chạy đáng kể.</span></li>
             </ul>
           </Section>
 
@@ -1234,16 +1234,16 @@ export default function EndgameStrategyPage() {
              ═══════════════════════════════════════════════════════ */}
           <section className="scroll-mt-20 border-t border-poe-border pt-16">
             <h2 className="section-title mb-8 text-center font-heading text-2xl font-bold text-poe-text-bright sm:text-3xl">
-              Loi Ket
+              Lời Kết
             </h2>
             <div className="mt-4 rounded-lg border border-poe-gold/20 bg-poe-gold/5 p-6 text-center">
               <p className="font-heading text-sm leading-relaxed text-poe-text">
-                <Gold>Path of Exile endgame là noi mà mỗi quyet dinh nhờ đều ảnh hưởng den loi nhuan.</Gold>
+                <Gold>Path of Exile endgame là nơi mà mỗi quyết định nhỏ đều ảnh hưởng đến lợi nhuận.</Gold>
                 <br />
-                Chon 1-2 strategy chinh, master no, roi mo rộng dan. Không có &ldquo;best strategy&rdquo; tuyet đổi &mdash;
-                chỉ có strategy phu hop với build, thời gian choi, va market hien tai của ban.
+                Chọn 1-2 strategy chính, master nó, rồi mở rộng dần. Không có &ldquo;best strategy&rdquo; tuyệt đối &mdash;
+                chỉ có strategy phù hợp với build, thời gian chơi, và market hiện tại của bạn.
                 <br /><br />
-                <B>Nguon tham khao:</B> Maxroll.gg, poe-vault.com, poe.ninja, craftofexile.com, poewiki.net
+                <B>Nguồn tham khảo:</B> Maxroll.gg, poe-vault.com, poe.ninja, craftofexile.com, poewiki.net
               </p>
             </div>
           </section>
