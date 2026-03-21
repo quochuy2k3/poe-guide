@@ -1,11 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  basePath: "/poe-guide",
   images: {
-    remotePatterns: [
-      { protocol: "https", hostname: "web.poecdn.com" },
-      { protocol: "https", hostname: "www.poewiki.net" },
-    ],
+    unoptimized: true,
   },
 };
 

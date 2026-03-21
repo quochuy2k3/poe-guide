@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Hướng dẫn endgame chi tiết PoE1: Atlas passive strategy, map farming, currency farming methods, crafting guide, boss rush profit, trading tips, juicing maps, Delve, Heist.",
   keywords: ["PoE endgame", "atlas strategy", "currency farming", "crafting guide", "boss rush", "map juicing", "Delve", "Heist", "Path of Exile"],
+  alternates: { canonical: "/endgame-strategy" },
 };
 
 /* ── Navigation sidebar data ── */

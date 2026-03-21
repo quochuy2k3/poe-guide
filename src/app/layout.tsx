@@ -1,31 +1,21 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
+const siteUrl = "https://quochuy2k3.github.io/poe-guide";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: "Path of Exile 1 — Hướng Dẫn Chuyên Sâu Tiếng Việt",
     template: "%s | PoE Guide Tiếng Việt",
   },
   description:
-    "Hướng dẫn toàn diện Path of Exile 1 tiếng Việt. Damage mechanics, defense layers, meta builds, atlas strategies, currency farming, boss guides, crafting — từ người mới đến endgame.",
+    "Hướng dẫn toàn diện Path of Exile 1 tiếng Việt: damage, defense, builds, atlas, currency farming, boss guides, crafting.",
   keywords: [
-    "Path of Exile",
-    "PoE",
-    "hướng dẫn",
-    "guide",
-    "tiếng Việt",
-    "builds",
-    "passive tree",
-    "skill gems",
-    "currency",
-    "atlas",
-    "endgame",
-    "league starter",
-    "damage mechanics",
-    "crafting",
-    "boss guide",
-    "ARPG",
-    "Grinding Gear Games",
+    "Path of Exile", "PoE", "hướng dẫn", "guide", "tiếng Việt",
+    "builds", "passive tree", "skill gems", "currency", "atlas",
+    "endgame", "league starter", "damage mechanics", "crafting",
+    "boss guide", "ARPG", "Grinding Gear Games",
   ],
   authors: [{ name: "PoE Guide VN" }],
   creator: "PoE Guide VN",
@@ -35,23 +25,19 @@ export const metadata: Metadata = {
     siteName: "PoE Guide Tiếng Việt",
     title: "Path of Exile 1 — Hướng Dẫn Chuyên Sâu Tiếng Việt",
     description:
-      "Từ người mới đến endgame: damage mechanics, defense layers, meta builds, atlas strategies, currency farming, boss guides và crafting.",
+      "Từ người mới đến endgame: damage, defense, builds, atlas, currency farming, boss guides.",
     images: [{ url: "/images/hero.jpg", width: 2560, height: 1440, alt: "Path of Exile Guide" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Path of Exile 1 — Hướng Dẫn Chuyên Sâu Tiếng Việt",
-    description:
-      "Hướng dẫn toàn diện PoE1 tiếng Việt: damage, defense, builds, atlas, currency, bosses.",
+    description: "Hướng dẫn toàn diện PoE1 tiếng Việt.",
     images: ["/images/hero.jpg"],
   },
   robots: {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
-  },
-  alternates: {
-    canonical: "/",
   },
 };
 

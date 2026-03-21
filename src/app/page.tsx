@@ -1,27 +1,8 @@
-import type { Metadata } from "next";
+import Link from "next/link";
 import Navigation from "@/components/Navigation";
+import ReadingProgress from "@/components/ReadingProgress";
+import BackToTop from "@/components/BackToTop";
 import S01 from "@/components/sections/S01_BasicConcepts";
-
-export const metadata: Metadata = {
-  alternates: { canonical: "/" },
-};
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "PoE Guide Tiếng Việt",
-  description:
-    "Hướng dẫn toàn diện Path of Exile 1 tiếng Việt — từ người mới đến endgame.",
-  url: "https://quochuy2k3.github.io/poe-guide",
-  inLanguage: "vi",
-  about: {
-    "@type": "VideoGame",
-    name: "Path of Exile",
-    genre: "Action RPG",
-    gamePlatform: ["PC", "PlayStation", "Xbox"],
-    publisher: { "@type": "Organization", name: "Grinding Gear Games" },
-  },
-};
 import S02 from "@/components/sections/S02_Classes";
 import S03 from "@/components/sections/S03_DamageMechanics";
 import S04 from "@/components/sections/S04_DefenseLayers";
@@ -36,6 +17,43 @@ import S12 from "@/components/sections/S12_LeagueMechanics";
 import S13 from "@/components/sections/S13_Bosses";
 import S14 from "@/components/sections/S14_Tools";
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "PoE Guide Tiếng Việt",
+  description: "Hướng dẫn toàn diện Path of Exile 1 tiếng Việt.",
+  url: "https://quochuy2k3.github.io/poe-guide",
+  inLanguage: "vi",
+  about: {
+    "@type": "VideoGame",
+    name: "Path of Exile",
+    genre: "Action RPG",
+    gamePlatform: ["PC", "PlayStation", "Xbox"],
+    publisher: { "@type": "Organization", name: "Grinding Gear Games" },
+  },
+};
+
+const advancedGuides = [
+  {
+    href: "/damage-mechanics",
+    title: "Damage & Defense Mechanics",
+    desc: "Công thức damage, conversion chain, increased vs more, ailments, crit system, armour formula, EHP calculation.",
+    icon: "⚔️",
+  },
+  {
+    href: "/meta-builds",
+    title: "Meta Builds & Tier List",
+    desc: "Top 10 league starters, boss killers, speed farmers. Ascendancy tier list, 6-link setups, budget scaling.",
+    icon: "🏗️",
+  },
+  {
+    href: "/endgame-strategy",
+    title: "Endgame Strategy Guide",
+    desc: "Atlas passive strategies, currency farming, crafting guide, boss rush profit, juicing maps, Delve, Heist.",
+    icon: "🗺️",
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -43,6 +61,7 @@ export default function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <ReadingProgress />
       <Navigation />
 
       <main className="lg:pl-56">
@@ -82,7 +101,7 @@ export default function Home() {
           </div>
         </header>
 
-        {/* Content */}
+        {/* Content sections */}
         <div className="mx-auto max-w-4xl space-y-24 px-6 py-16 pt-8">
           <S01 />
           <S02 />
@@ -98,6 +117,42 @@ export default function Home() {
           <S12 />
           <S13 />
           <S14 />
+
+          {/* Advanced Guides links */}
+          <section className="border-t border-poe-border pt-16">
+            <div className="mb-8 text-center">
+              <span className="font-heading text-xs font-semibold tracking-[0.2em] text-poe-gold-dim uppercase">
+                Nâng Cao
+              </span>
+              <h2 className="section-title mt-1 font-heading text-2xl font-bold text-poe-text-bright sm:text-3xl">
+                Hướng Dẫn Chuyên Sâu
+              </h2>
+              <p className="mt-2 text-sm text-poe-text-dim">
+                Đi sâu hơn vào từng chủ đề — dành cho player muốn min-max và hiểu game ở level cao nhất.
+              </p>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-3">
+              {advancedGuides.map(({ href, title, desc, icon }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="game-panel group rounded-lg p-5 transition-all hover:border-poe-gold/40 hover:shadow-lg hover:shadow-poe-gold/5"
+                >
+                  <span className="text-2xl">{icon}</span>
+                  <h3 className="mt-2 font-heading text-sm font-bold text-poe-gold group-hover:text-poe-gold-bright transition-colors">
+                    {title}
+                  </h3>
+                  <p className="mt-2 text-xs text-poe-text-dim leading-relaxed">{desc}</p>
+                  <span className="mt-3 inline-flex items-center gap-1 text-xs text-poe-gold-dim group-hover:text-poe-gold transition-colors">
+                    Đọc chi tiết
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5">
+                      <path d="M4 2l4 4-4 4" />
+                    </svg>
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </section>
         </div>
 
         {/* Footer */}
@@ -108,6 +163,7 @@ export default function Home() {
           </p>
         </footer>
       </main>
+      <BackToTop />
     </>
   );
 }

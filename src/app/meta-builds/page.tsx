@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Top builds meta Path of Exile 1 patch 3.25–3.28. League Starter, Boss Killer, Speed Farming, Ascendancy Tier List, 6-Link Gem Setups, Budget Scaling từ 1 Divine đến 100+ Divine.",
   keywords: ["PoE builds", "league starter", "boss killer", "meta builds", "ascendancy tier list", "gem links", "Path of Exile"],
+  alternates: { canonical: "/meta-builds" },
 };
 
 function Unique({ children }: { children: React.ReactNode }) {

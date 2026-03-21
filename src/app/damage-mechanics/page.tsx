@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   description:
     "Hướng dẫn chi tiết damage mechanics Path of Exile 1: damage types, conversion, increased vs more, hit vs DoT, ailments, crit system, penetration, EHP calculation.",
   keywords: ["PoE damage", "damage conversion", "increased vs more", "ailments", "crit", "penetration", "EHP", "Path of Exile"],
+  alternates: { canonical: "/damage-mechanics" },
 };
 
 function Formula({ children }: { children: React.ReactNode }) {
