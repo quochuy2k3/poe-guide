@@ -59,7 +59,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@400;500;600&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/poe-guide/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/favicon.svg`} type="image/svg+xml" />
       </head>
       <body className="min-h-screen antialiased">{children}</body>
     </html>
