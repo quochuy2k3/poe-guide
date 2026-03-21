@@ -352,10 +352,10 @@ export default function EndgameStrategyPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Item</th><th>Stats</th><th>Gia (~)</th></tr>
+                  <tr><th>Item</th><th>Stats</th><th>Giá (~)</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td className="text-poe-gold font-semibold">Ventor&apos;s Gamble</td><td>10% IIQ, 40-50% IIR, + elemental res</td><td><Gold>5-50 Divine</Gold> (tuy roll)</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Ventor&apos;s Gamble</td><td>10% IIQ, 40-50% IIR, + elemental res</td><td><Gold>5-50 Divine</Gold> (tùy roll)</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Goldwyrm</td><td>20% IIQ</td><td>5-20c</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Greed&apos;s Embrace</td><td>15% IIQ, 50% IIR</td><td>1-5c</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Sadima&apos;s Touch</td><td>12-16% IIQ</td><td>1-5c</td></tr>
@@ -365,42 +365,42 @@ export default function EndgameStrategyPage() {
               </table>
             </div>
             <Tip>
-              <B>IIQ target:</B> Nham <Gold>80-120% IIQ</Gold> va <Gold>200-350% IIR</Gold> tong cong.
-              Qua 120% IIQ, diminishing returns bất dau. IIR ảnh hưởng den đó hiếm nhung <B>khong ảnh hưởng den currency drop</B> &mdash;
-              chỉ IIQ mỗi tăng so luong currency drop.
+              <B>IIQ target:</B> Nhắm <Gold>80-120% IIQ</Gold> và <Gold>200-350% IIR</Gold> tổng cộng.
+              Quá 120% IIQ, diminishing returns bắt đầu. IIR ảnh hưởng đến độ hiếm nhưng <B>không ảnh hưởng đến currency drop</B> &mdash;
+              chỉ IIQ mới tăng số lượng currency drop.
             </Tip>
 
             <H3>3.5. Party Play vs Solo</H3>
             <P>
-              Party play trong PoE <B>tang dang ke loot</B>:
+              Party play trong PoE <B>tăng đáng kể loot</B>:
             </P>
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span>Moi player thêm trong party (sau nguoi thu 1) tăng khoảng <Gold>+50% item quantity</Gold> va <Gold>+25% item rarity</Gold> (additive với monster/area bonus, <B>multiplicative</B> với player bonus).</span>
+                <span>Mỗi player thêm trong party (sau người thứ 1) tăng khoảng <Gold>+50% item quantity</Gold> và <Gold>+25% item rarity</Gold> (additive với monster/area bonus, <B>multiplicative</B> với player bonus).</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span>Party 6 nguoi = <Gold>+250% IIQ</Gold> bonus từ party mechanic.</span>
+                <span>Party 6 người = <Gold>+250% IIQ</Gold> bonus từ party mechanic.</span>
               </li>
             </ul>
-            <H4>Cau hinh party toi uu:</H4>
+            <H4>Cấu hình party tối ưu:</H4>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Role</th><th>Nhiem vu</th><th>Build phổ biến</th></tr>
+                  <tr><th>Role</th><th>Nhiệm vụ</th><th>Build phổ biến</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td className="text-poe-gold font-semibold">Carry / DPS</td><td>Clear map cuc nhanh</td><td>Tornado Shot, Kinetic Blast, Lightning Arrow</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Aurabot</td><td>Stack aura buff cho ca party (15+ aura)</td><td>Guardian / Necromancer aurabot</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Carry / DPS</td><td>Clear map cực nhanh</td><td>Tornado Shot, Kinetic Blast, Lightning Arrow</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Aurabot</td><td>Stack aura buff cho cả party (15+ aura)</td><td>Guardian / Necromancer aurabot</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Cursebot</td><td>Apply curse giảm resist, tăng damage taken</td><td>Occultist curse stacker</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">MF Culler</td><td>Last-hit boss/rare với MF gear + Culling Strike</td><td>Bao nhiều IIQ/IIR có thể stack</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">MF Culler</td><td>Last-hit boss/rare với MF gear + Culling Strike</td><td>Bao nhiêu IIQ/IIR có thể stack</td></tr>
                 </tbody>
               </table>
             </div>
             <P>
-              Party play có thể đạt <Gold>2000-5000c/gio</Gold> (chia cho 4-6 nguoi) với juice maps cuc cao.
-              So với solo ~<Gold>300-800c/gio</Gold>, party play hiệu quả hon nhung cần coordination.
+              Party play có thể đạt <Gold>2000-5000c/giờ</Gold> (chia cho 4-6 người) với juice maps cực cao.
+              So với solo ~<Gold>300-800c/giờ</Gold>, party play hiệu quả hơn nhưng cần coordination.
             </P>
           </Section>
 

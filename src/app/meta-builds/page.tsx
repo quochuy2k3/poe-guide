@@ -607,8 +607,8 @@ export default function MetaBuildsPage() {
                 <tbody>
                   {[
                     ["Mageblood", "Heavy Belt", "100-200", "Mọi build", "4 Magic Flask luôn active. Best-in-slot cho mọi build."],
-                    ["Headhunter", "Leather Belt", "60-120", "Speed farming", "An cấp mod rare monster. Clear speed tăng gap 10 lan."],
-                    ["Mirror of Kalandra", "Currency", "300-700", "Mirror-tier crafting", "Copy item. Item đạt nhất game."],
+                    ["Headhunter", "Leather Belt", "60-120", "Speed farming", "Ăn cắp mod rare monster. Clear speed tăng gấp 10 lần."],
+                    ["Mirror of Kalandra", "Currency", "300-700", "Mirror-tier crafting", "Copy item. Item đắt nhất game."],
                   ].map(([name, type, price, builds, effect]) => (
                     <tr key={name}>
                       <td className="rarity-unique font-semibold whitespace-nowrap">{name}</td>
@@ -631,15 +631,15 @@ export default function MetaBuildsPage() {
                 <tbody>
                   {[
                     ["Nimis", "Topaz Ring", "15-40", "Tornado Shot, Kinetic Blast", "Projectiles Return. Double hit = double DPS."],
-                    ["Ashes of thể Stars", "Onyx Amulet", "8-20", "Minion, Aura, mỗi build cần gem quality", "+30% quality cho mỗi skill gem. +1 gem level. Reservation efficiency."],
-                    ["Aegis Aurora", "Champion Kite Shield", "10-25", "Guardian, Necro, tank builds", "Recover ES on block. Nen tăng cho mỗi block-based build."],
+                    ["Ashes of the Stars", "Onyx Amulet", "8-20", "Minion, Aura, mọi build cần gem quality", "+30% quality cho mọi skill gem. +1 gem level. Reservation efficiency."],
+                    ["Aegis Aurora", "Champion Kite Shield", "10-25", "Guardian, Necro, tank builds", "Recover ES on block. Nền tảng cho mọi block-based build."],
                     ["Oriath's End", "Silver Flask", "5-15", "Speed clear builds", "Monsters explode for 10% life as damage. Chain explosions."],
-                    ["Inpulsa's Broken Heart", "Sadist Garb", "3-8", "Lightning builds, LA Deadeye", "Shocked enemies explode. Clear speed tăng rất lon."],
+                    ["Inpulsa's Broken Heart", "Sadist Garb", "3-8", "Lightning builds, LA Deadeye", "Shocked enemies explode. Clear speed tăng rất lớn."],
                     ["Cane of Unravelling", "Ezomyte Staff", "0.1-0.5", "Blight/ED Trickster", "+2 Chaos gems, Chaos DoT Multi. Budget starter weapon."],
                     ["Severed in Sleep", "Cutlass", "0.5-2", "Poison SRS, Animate Weapon", "60% chance Poison cho minions. Core cho poison minion builds."],
                     ["Bino's Kitchen Knife", "Slaughter Knife", "1-3", "Viper Strike", "Poison spread, regen on poison kill. Core cho VS builds."],
                     ["The Embalmer", "Carnal Mitts", "0.5-2", "Poison builds", "+2 AoE gems, Vile Toxins built-in. Budget poison option."],
-                    ["Skin of thể Lords", "Simple Robe", "+1 gem level variant: 5-20", "Moi build cần +1 gems", "+1 All gems, 100% Global Defence. Keystone ngau nhien."],
+                    ["Skin of the Lords", "Simple Robe", "+1 gem level variant: 5-20", "Mọi build cần +1 gems", "+1 All gems, 100% Global Defence. Keystone ngẫu nhiên."],
                   ].map(([name, type, price, builds, effect]) => (
                     <tr key={name}>
                       <td className="rarity-unique font-semibold whitespace-nowrap">{name}</td>
@@ -653,16 +653,16 @@ export default function MetaBuildsPage() {
               </table>
             </div>
 
-            <H3>Tier 2 &mdash; Build-Enhancing Uniques (Gia phải chang)</H3>
+            <H3>Tier 2 &mdash; Build-Enhancing Uniques (Giá phải chăng)</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Item</th><th>Gia (Div)</th><th>Dung Cho</th><th>Hieu Ung</th></tr>
+                  <tr><th>Item</th><th>Giá (Div)</th><th>Dùng Cho</th><th>Hiệu Ứng</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["Goldrim (Helmet)", "0.01", "Leveling mỗi build", "+30-40 All Res. Best leveling helmet."],
-                    ["Tabula Rasa", "0.1-0.3", "Moi build (early)", "6-link trang. Bo bất ky 6 gems nao vao."],
+                    ["Goldrim (Helmet)", "0.01", "Leveling mọi build", "+30-40 All Res. Best leveling helmet."],
+                    ["Tabula Rasa", "0.1-0.3", "Mọi build (early)", "6-link trắng. Bỏ bất kỳ 6 gems nào vào."],
                     ["Loreweave", "1-3", "Builds cần max res", "Set max res = 78%. Flat damage + crit."],
                     ["Prism Guardian", "0.5-2", "Aura stackers, LL builds", "Socketed Auras reserve Life. Blood Magic for auras."],
                     ["Bone Helmet (+2/+3 minion)", "1-5 (crafted)", "Minion builds", "+2/+3 Minion Gem Level. Cuc ky quan trọng cho Spectre/SRS."],
