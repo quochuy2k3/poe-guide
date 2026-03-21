@@ -2,7 +2,7 @@ import { Section, H3, P, B, Gold, Panel, Tip, Warning } from "@/components/ui";
 
 export default function S03_DamageMechanics() {
  return (
-  <Section id="damage" num="III" title="Damage Mechanics — Hiểu Sâu Hệ Thống Sát Thương">
+  <Section id="damage" num="III" title="Cơ Chế Sát Thương — Hiểu Sâu Hệ Thống Damage">
    <P>
     Đây là phần <B>quan trọng nhất</B> mà đa số người mới bỏ qua. Hiểu damage mechanics = hiểu tại sao
     build A mạnh hơn build B, và biết cách scale damage hiệu quả nhất.
@@ -24,7 +24,7 @@ export default function S03_DamageMechanics() {
     ))}
    </div>
 
-   <H3>Damage Conversion Chain</H3>
+   <H3>Chuỗi Chuyển Đổi Sát Thương</H3>
    <P>
     Damage trong PoE có thể <B>convert</B> (chuyển đổi) theo 1 chiều duy nhất:
    </P>
@@ -45,7 +45,7 @@ export default function S03_DamageMechanics() {
     (ví dụ: Elemental Hit convert 100% → Fire, được buff từ nhiều nguồn khác nhau).
    </Tip>
 
-   <H3>Increased vs More — Sự khác biệt sống còn</H3>
+   <H3>Increased vs More — Sự Khác Biệt Sống Còn</H3>
    <div className="grid gap-4 sm:grid-cols-2 mb-4">
     <Panel>
      <div className="font-heading text-sm font-bold text-poe-gold mb-2">Increased (Cộng dồn)</div>
@@ -86,7 +86,7 @@ export default function S03_DamageMechanics() {
     </div>
    </div>
 
-   <H3>Hit vs DoT (Damage over Time)</H3>
+   <H3>Hit vs DoT (Sát Thương Theo Thời Gian)</H3>
    <div className="grid gap-4 sm:grid-cols-2 mb-4">
     <Panel>
      <div className="font-heading text-sm font-bold text-poe-text-bright mb-2">Hit Damage</div>
@@ -110,7 +110,7 @@ export default function S03_DamageMechanics() {
     </Panel>
    </div>
 
-   <H3>Ailments (Trạng thái bất lợi)</H3>
+   <H3>Hiệu Ứng Trạng Thái Bất Lợi</H3>
    <div className="overflow-x-auto">
     <table className="poe-table">
      <thead>
@@ -141,7 +141,7 @@ export default function S03_DamageMechanics() {
     có thể stack hàng trăm poison cùng lúc, gây millions DPS trên boss mà không cần gear đắt.
    </Tip>
 
-   <H3>Critical Strikes — Crit System</H3>
+   <H3>Đòn Chí Mạng — Hệ Thống Crit</H3>
    <P>
     Crit trong PoE phức tạp hơn game khác:
    </P>
@@ -168,7 +168,7 @@ export default function S03_DamageMechanics() {
     </li>
    </ul>
 
-   <H3>Resistance Penetration & Exposure</H3>
+   <H3>Xuyên Kháng & Phơi Nhiễm</H3>
    <P>
     Giảm resist của enemy = tăng damage. Có nhiều lớp chồng nhau:
    </P>

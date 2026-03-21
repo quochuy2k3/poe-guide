@@ -3,7 +3,7 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S08_Currency() {
  return (
-  <Section id="currency" num="VIII" title="Currency System & Economy">
+  <Section id="currency" num="VIII" title="Hệ Thống Tiền Tệ & Kinh Tế">
    <SectionImage src="/images/currency.jpg" alt="POE Currency Orbs" className="mb-6" />
 
    <H3>PoE không có gold — hiểu hệ thống Orbs</H3>
@@ -12,7 +12,7 @@ export default function S08_Currency() {
     phức tạp và thú vị hơn bất kỳ ARPG nào khác.
    </P>
 
-   <H3>Currency Tier List (từ rẻ đến đắt)</H3>
+   <H3>Bảng Xếp Hạng Tiền Tệ (Rẻ Đến Đắt)</H3>
    <div className="overflow-x-auto mb-4">
     <table className="poe-table">
      <thead>
@@ -45,7 +45,7 @@ export default function S08_Currency() {
     </table>
    </div>
 
-   <H3>Currency Farming Methods (theo hiệu quả)</H3>
+   <H3>Phương Pháp Farm Tiền (Theo Hiệu Quả)</H3>
    <div className="grid gap-3 sm:grid-cols-2 mb-4">
     {[
      { method: "Chaos Recipe (early)", rate: "50-80c/hour", desc: "Bán full set unid Rare items iLvl 60-74. Setup 1 quad tab, farm Blood Aqueduct hoặc white maps.", when: "Tuần 1-2 league, khi chưa có gear" },
@@ -71,7 +71,7 @@ export default function S08_Currency() {
     Mua gear có sẵn always hiệu quả hơn craft random cho người mới.
    </Warning>
 
-   <H3>Trade — Mua bán hiệu quả</H3>
+   <H3>Giao Dịch — Mua Bán Hiệu Quả</H3>
    <ul className="space-y-2 text-sm">
     {[
      { title: "Dùng pathofexile.com/trade", desc: "Official trade site. Filter theo mods, price, iLvl. Bookmark các search thường dùng." },

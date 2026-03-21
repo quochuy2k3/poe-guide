@@ -3,7 +3,7 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S02_Classes() {
  return (
-  <Section id="classes" num="II" title="Hệ Thống Nhân Vật & Ascendancy">
+  <Section id="classes" num="II" title="Hệ Thống Nhân Vật & Thăng Hạng">
    <SectionImage src="/images/classes.jpg" alt="POE Character Classes" className="mb-6" />
 
    <H3>3 Attributes — Nền tảng mọi thứ</H3>
@@ -153,7 +153,7 @@ export default function S02_Classes() {
     </table>
    </div>
 
-   <H3>Ascendancy Tier List (Current Meta)</H3>
+   <H3>Bảng Xếp Hạng Ascendancy (Meta Hiện Tại)</H3>
    <div className="grid gap-3 sm:grid-cols-2">
     <Panel>
      <div className="mb-2 font-heading text-xs font-bold text-poe-gold tracking-wider uppercase">S-Tier (Mạnh nhất)</div>

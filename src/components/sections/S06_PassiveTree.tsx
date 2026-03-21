@@ -3,7 +3,7 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S06_PassiveTree() {
  return (
-  <Section id="passive-tree" num="VI" title="Passive Skill Tree & Jewels">
+  <Section id="passive-tree" num="VI" title="Cây Kỹ Năng Thụ Động & Ngọc">
    <SectionImage src="/images/passive-tree.jpg" alt="POE Passive Skill Tree" className="mb-6" />
 
    <P>
@@ -36,7 +36,7 @@ export default function S06_PassiveTree() {
     </table>
    </div>
 
-   <H3>Keystones quan trọng nhất</H3>
+   <H3>Keystones Quan Trọng Nhất</H3>
    <div className="grid gap-3 sm:grid-cols-2 mb-4">
     {[
      { name: "Resolute Technique", desc: "Hits không bao giờ miss, không bao giờ crit. Build không crit, tiết kiệm invest accuracy + crit.", for: "Non-crit melee/attack builds" },
@@ -56,7 +56,7 @@ export default function S06_PassiveTree() {
     ))}
    </div>
 
-   <H3>Cluster Jewels — Expanding the Tree</H3>
+   <H3>Cluster Jewels — Mở Rộng Cây Kỹ Năng</H3>
    <P>
     <B>Cluster Jewels</B> là jewels gắn vào outer socket, tạo ra <Gold>cành cây passive mới</Gold> với Notables custom.
     Đây là endgame scaling mạnh nhất cho nhiều builds — cho phép stack bonus không có trên tree gốc.
@@ -80,7 +80,7 @@ export default function S06_PassiveTree() {
     là cách kiếm tiền hiệu quả.
    </Tip>
 
-   <H3>Nguyên tắc build cây passive</H3>
+   <H3>Nguyên Tắc Xây Dựng Cây Kỹ Năng</H3>
    <ol className="space-y-3 text-sm mb-4">
     {[
      { title: "Life/ES trước", desc: "180-200% increased Max Life trên tree. Cho ES builds: 200-250% increased ES. Đây là số 1." },

@@ -3,10 +3,10 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S05_SkillGems() {
  return (
-  <Section id="gems" num="V" title="Skill Gems & Support System">
+  <Section id="gems" num="V" title="Đá Kỹ Năng & Hệ Thống Hỗ Trợ">
    <SectionImage src="/images/skill-gems.jpg" alt="POE Skill Gems" className="mb-6" />
 
-   <H3>Gem System cốt lõi</H3>
+   <H3>Hệ Thống Gem Cốt Lõi</H3>
    <P>
     Trong PoE, <B>nhân vật không tự có skill</B>. Mọi skill đến từ <Gold>Skill Gems</Gold> gắn vào socket trên gear.
     Điều này tạo sự linh hoạt cực cao — bất kỳ class nào cũng dùng được bất kỳ skill nào (miễn đủ attribute requirement).
@@ -35,7 +35,7 @@ export default function S05_SkillGems() {
     </Panel>
    </div>
 
-   <H3>Socket & Link chi tiết</H3>
+   <H3>Socket & Link Chi Tiết</H3>
    <P>
     Socket có 3 màu: <span className="text-red-400">Đỏ (Str)</span>,{" "}
     <span className="text-green-400">Xanh lá (Dex)</span>,{" "}
@@ -119,7 +119,7 @@ export default function S05_SkillGems() {
     ))}
    </div>
 
-   <H3>Gem Quality & Level</H3>
+   <H3>Chất Lượng & Cấp Độ Gem</H3>
    <P>
     Gems có 2 thuộc tính scale riêng: <B>Level</B> (1-21) và <B>Quality</B> (0-23%). Cả hai đều tăng damage/effect.
    </P>

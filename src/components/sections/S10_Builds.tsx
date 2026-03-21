@@ -3,17 +3,17 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S10_Builds() {
  return (
-  <Section id="builds" num="X" title="Builds — Từ League Start Đến Min-Max">
+  <Section id="builds" num="X" title="Xây Dựng Nhân Vật — Từ Đầu Mùa Đến Tối Ưu">
    <SectionImage src="/images/builds.jpg" alt="POE Build Gameplay" className="mb-6" />
 
-   <H3>Build Components</H3>
+   <H3>Thành Phần Của Một Build</H3>
    <P>
     Một build hoàn chỉnh bao gồm: Class + Ascendancy, Main Skill (6L), Aura setup,
     Movement skill, Guard skill, Passive Tree, Gear, Flasks, Jewels, và Pantheon.
     Thiếu bất kỳ piece nào = build không hoàn thiện.
    </P>
 
-   <H3>Build Archetypes — So sánh chi tiết</H3>
+   <H3>Kiểu Build — So Sánh Chi Tiết</H3>
    <div className="overflow-x-auto mb-4">
     <table className="poe-table">
      <thead>
@@ -46,7 +46,7 @@ export default function S10_Builds() {
     </table>
    </div>
 
-   <H3>League Starter Builds — Chi tiết cho người mới</H3>
+   <H3>Build Đầu Mùa — Chi Tiết Cho Người Mới</H3>
    <div className="space-y-4 mb-4">
     {[
      {
@@ -116,7 +116,7 @@ export default function S10_Builds() {
     ))}
    </div>
 
-   <H3>Build Progression — Budget Tiers</H3>
+   <H3>Tiến Trình Build — Theo Mức Ngân Sách</H3>
    <div className="overflow-x-auto">
     <table className="poe-table">
      <thead>

@@ -2,13 +2,13 @@ import { Section, H3, P, B, Gold, Panel, Tip, Warning } from "@/components/ui";
 
 export default function S14_Tools() {
  return (
-  <Section id="tools" num="XIV" title="Công Cụ & Tips Cuối Cùng">
+  <Section id="tools" num="XIV" title="Công Cụ & Mẹo Cuối Cùng">
    <P>
     PoE gần như <B>bắt buộc</B> phải dùng công cụ bên ngoài. Đây không phải nhược điểm — đây là
     ecosystem mà community đã xây dựng suốt hơn 10 năm.
    </P>
 
-   <H3>Essential Tools</H3>
+   <H3>Công Cụ Thiết Yếu</H3>
    <div className="grid gap-3 sm:grid-cols-2 mb-6">
     {[
      { name: "Path of Building (PoB)", site: "pathofbuilding.community", desc: "BẮT BUỘC. Plan build offline, import PoB code từ guides, tính DPS chính xác, test gear upgrades trước khi mua. Dùng fork community (không phải bản gốc).", tier: "essential" },

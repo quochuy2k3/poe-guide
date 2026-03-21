@@ -3,16 +3,16 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S09_Leveling() {
  return (
-  <Section id="leveling" num="IX" title="Leveling — Campaign Speedrun & Tricks">
+  <Section id="leveling" num="IX" title="Cày Level — Chiến Dịch & Mẹo Tăng Tốc">
    <SectionImage src="/images/leveling.jpg" alt="POE Campaign" className="mb-6" />
 
-   <H3>Campaign tổng quan</H3>
+   <H3>Tổng Quan Chiến Dịch</H3>
    <P>
     10 Acts — mục tiêu là hoàn thành <B>càng nhanh càng tốt</B> để vào endgame.
     Người mới: 15-30 giờ. Player trung bình: 6-10 giờ. Speedrunner: dưới 3 giờ.
    </P>
 
-   <H3>Act-by-Act Reference</H3>
+   <H3>Tham Khảo Theo Từng Chương</H3>
    <div className="overflow-x-auto mb-4">
     <table className="poe-table">
      <thead>
@@ -43,7 +43,7 @@ export default function S09_Leveling() {
     </table>
    </div>
 
-   <H3>Leveling Speedrun Tricks</H3>
+   <H3>Mẹo Cày Level Nhanh</H3>
    <div className="grid gap-3 sm:grid-cols-2 mb-4">
     {[
      { title: "Movement Speed", tips: ["Quicksilver Flask từ Act 1 quest (mercy mission)", "30% MS boots — mua/find ASAP", "Movement skill: Flame Dash (caster) hoặc Leap Slam/Shield Charge (melee)", "Onslaught support trên movement skill = bonus speed"] },
@@ -60,7 +60,7 @@ export default function S09_Leveling() {
     ))}
    </div>
 
-   <H3>Bandits Choice (Act 2) — Impact Analysis</H3>
+   <H3>Lựa Chọn Bandits (Chương 2) — Phân Tích Ảnh Hưởng</H3>
    <div className="overflow-x-auto mb-4">
     <table className="poe-table">
      <thead>

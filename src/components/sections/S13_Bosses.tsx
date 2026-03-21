@@ -3,10 +3,10 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S13_Bosses() {
  return (
-  <Section id="bosses" num="XIII" title="Endgame Bosses — Mechanics & Profit">
+  <Section id="bosses" num="XIII" title="Boss Cuối Game — Cơ Chế & Phần Thưởng">
    <SectionImage src="/images/bosses.jpg" alt="POE Endgame Bosses" className="mb-6" />
 
-   <H3>Boss Progression Path</H3>
+   <H3>Lộ Trình Đánh Boss</H3>
    <P>
     Endgame bosses theo thứ tự khó dần. Mỗi boss có <B>mechanics riêng</B> phải học —
     hiểu mechanics quan trọng hơn raw DPS.
@@ -62,7 +62,7 @@ export default function S13_Bosses() {
     ))}
    </div>
 
-   <H3>Boss Fighting Tips</H3>
+   <H3>Mẹo Đánh Boss</H3>
    <ol className="space-y-2 text-sm mb-4">
     {[
      { title: "Học mechanics trước khi fight", desc: "Xem YouTube guides cho mỗi boss. Hiểu pattern = sống sót dù DPS thấp." },
@@ -80,7 +80,7 @@ export default function S13_Bosses() {
     ))}
    </ol>
 
-   <H3>Voidstones — Atlas Tier Boosting</H3>
+   <H3>Voidstones — Tăng Cấp Bản Đồ</H3>
    <P>
     4 Voidstones drop từ 4 pinnacle bosses. Mỗi Voidstone gắn vào Atlas tăng tier tất cả maps.
     Gom đủ 4 = tất cả maps trở thành T16 = maximum monster level = best loot.

@@ -73,7 +73,7 @@ export default function S01_BasicConcepts() {
     </table>
    </div>
 
-   <H3>League Types — Chọn đúng mode</H3>
+   <H3>Loại League — Chọn Đúng Chế Độ</H3>
    <div className="grid gap-4 sm:grid-cols-2 mb-4">
     <Panel>
      <div className="font-heading text-sm font-bold text-poe-gold mb-2">Softcore Trade League</div>
@@ -116,7 +116,7 @@ export default function S01_BasicConcepts() {
     </Panel>
    </div>
 
-   <H3>Vendor Recipes quan trọng</H3>
+   <H3>Công Thức Bán Đồ Quan Trọng</H3>
    <P>
     Vendor recipes là các công thức ẩn — bán đúng combo item cho NPC sẽ nhận lại item/currency đặc biệt:
    </P>

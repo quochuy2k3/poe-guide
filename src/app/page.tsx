@@ -36,20 +36,20 @@ const jsonLd = {
 const advancedGuides = [
   {
     href: "/damage-mechanics",
-    title: "Damage & Defense Mechanics",
-    desc: "Công thức damage, conversion chain, increased vs more, ailments, crit system, armour formula, EHP calculation.",
+    title: "Cơ Chế Sát Thương & Phòng Thủ",
+    desc: "Công thức damage, chuỗi chuyển đổi, increased vs more, hiệu ứng trạng thái, hệ thống chí mạng, công thức giáp, tính toán EHP.",
     icon: "⚔️",
   },
   {
     href: "/meta-builds",
-    title: "Meta Builds & Tier List",
-    desc: "Top 10 league starters, boss killers, speed farmers. Ascendancy tier list, 6-link setups, budget scaling.",
+    title: "Build Mạnh Nhất & Bảng Xếp Hạng",
+    desc: "Top 10 build đầu mùa, build đánh boss, build farm nhanh. Bảng xếp hạng Ascendancy, setup 6-link, quy mô ngân sách.",
     icon: "🏗️",
   },
   {
     href: "/endgame-strategy",
-    title: "Endgame Strategy Guide",
-    desc: "Atlas passive strategies, currency farming, crafting guide, boss rush profit, juicing maps, Delve, Heist.",
+    title: "Chiến Lược Cuối Game",
+    desc: "Chiến lược Atlas, farm tiền tệ, hướng dẫn chế tạo, farm boss hiệu quả, tăng độ khó bản đồ, Delve, Heist.",
     icon: "🗺️",
   },
 ];

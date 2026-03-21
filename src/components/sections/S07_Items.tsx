@@ -3,7 +3,7 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S07_Items() {
  return (
-  <Section id="items" num="VII" title="Item System & Crafting Cơ Bản">
+  <Section id="items" num="VII" title="Hệ Thống Trang Bị & Chế Tạo">
    <SectionImage src="/images/items.jpg" alt="POE Items" className="mb-6" />
 
    <H3>4 Cấp độ hiếm (Rarity)</H3>
@@ -22,7 +22,7 @@ export default function S07_Items() {
     ))}
    </div>
 
-   <H3>Affix Tiers — Không phải Rare nào cũng tốt</H3>
+   <H3>Cấp Bậc Affix — Không Phải Đồ Vàng Nào Cũng Tốt</H3>
    <P>
     Mỗi affix có <B>nhiều tier</B>. Ví dụ flat Life trên body armour:
    </P>
@@ -56,7 +56,7 @@ export default function S07_Items() {
     Khi mua base để craft, luôn kiểm tra iLvl ≥ 83 (T1 life), lý tưởng 86+.
    </Warning>
 
-   <H3>Influenced Items</H3>
+   <H3>Trang Bị Có Ảnh Hưởng</H3>
    <P>
     Items có thể có <B>Influence</B> — thêm pool of mods đặc biệt cực mạnh:
    </P>
@@ -76,7 +76,7 @@ export default function S07_Items() {
     ))}
    </div>
 
-   <H3>Gear Check — Item tốt phải có gì?</H3>
+   <H3>Kiểm Tra Trang Bị — Đồ Tốt Cần Gì?</H3>
    <div className="overflow-x-auto">
     <table className="poe-table">
      <thead>
@@ -104,7 +104,7 @@ export default function S07_Items() {
     </table>
    </div>
 
-   <H3>Crafting cơ bản cho người mới</H3>
+   <H3>Chế Tạo Cơ Bản Cho Người Mới</H3>
    <ol className="space-y-2 text-sm">
     {[
      "Tìm base item đúng (iLvl 83+, đúng base type cho build)",

@@ -3,16 +3,16 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S11_Atlas() {
  return (
-  <Section id="atlas" num="XI" title="Atlas & Endgame Mapping Strategies">
+  <Section id="atlas" num="XI" title="Atlas & Chiến Lược Chạy Bản Đồ">
    <SectionImage src="/images/atlas.jpg" alt="POE Atlas of Worlds" className="mb-6" />
 
-   <H3>Atlas System</H3>
+   <H3>Hệ Thống Atlas</H3>
    <P>
     Sau campaign, bạn nhận <B>Map Device</B>. Maps là consumable items — đặt vào device mở portal
     đến randomized dungeons. <Gold>Atlas of Worlds</Gold> (phím G) hiển thị progress.
    </P>
 
-   <H3>Map Tiers & Progression</H3>
+   <H3>Cấp Bậc & Tiến Trình Bản Đồ</H3>
    <div className="overflow-x-auto mb-4">
     <table className="poe-table">
      <thead>
@@ -36,7 +36,7 @@ export default function S11_Atlas() {
     </table>
    </div>
 
-   <H3>Map Crafting — Juice levels</H3>
+   <H3>Chế Tạo Bản Đồ — Các Mức Tăng Độ Khó</H3>
    <div className="overflow-x-auto mb-4">
     <table className="poe-table">
      <thead>
@@ -60,7 +60,7 @@ export default function S11_Atlas() {
     </table>
    </div>
 
-   <H3>Atlas Passive Tree — Strategies phổ biến</H3>
+   <H3>Cây Kỹ Năng Atlas — Chiến Lược Phổ Biến</H3>
    <div className="grid gap-3 sm:grid-cols-2 mb-4">
     {[
      {
@@ -111,7 +111,7 @@ export default function S11_Atlas() {
     ))}
    </div>
 
-   <H3>Map Mods — Mods nguy hiểm phải biết</H3>
+   <H3>Thuộc Tính Bản Đồ — Những Mod Nguy Hiểm</H3>
    <div className="overflow-x-auto mb-4">
     <table className="poe-table">
      <thead>

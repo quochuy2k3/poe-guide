@@ -2,7 +2,7 @@ import { Section, H3, P, B, Gold, Panel, Tip, Warning } from "@/components/ui";
 
 export default function S04_DefenseLayers() {
  return (
-  <Section id="defense" num="IV" title="Defense Layers — Nghệ Thuật Không Chết">
+  <Section id="defense" num="IV" title="Hệ Thống Phòng Thủ — Nghệ Thuật Không Chết">
    <P>
     Trong PoE, <B>damage dễ kiếm, defense mới khó</B>. Bạn sẽ chết rất nhiều nếu không hiểu defense layers.
     Nguyên tắc cốt lõi: <Gold>stack nhiều lớp defense khác nhau</Gold>, không phụ thuộc 1 lớp duy nhất.
@@ -42,7 +42,7 @@ export default function S04_DefenseLayers() {
     </Panel>
    </div>
 
-   <H3>Damage Mitigation Layers</H3>
+   <H3>Các Lớp Giảm Sát Thương</H3>
    <div className="overflow-x-auto">
     <table className="poe-table">
      <thead>
@@ -71,7 +71,7 @@ export default function S04_DefenseLayers() {
     </table>
    </div>
 
-   <H3>Armour Formula — Tại sao Armour misleading</H3>
+   <H3>Công Thức Giáp — Tại Sao Giáp Gây Hiểu Lầm</H3>
    <div className="game-panel rounded-lg p-4 mb-4">
     <div className="text-xs font-mono text-poe-text">
      <Gold>Damage Reduction</Gold> = Armour / (Armour + 5 × Raw Damage)<br/><br/>
@@ -86,7 +86,7 @@ export default function S04_DefenseLayers() {
     Đó là lý do cần <Gold>kết hợp nhiều defense layers</Gold>: Armour + Max Res + Fortify + Endurance Charges.
    </Warning>
 
-   <H3>Defense Stack phổ biến theo Archetype</H3>
+   <H3>Cách Xếp Chồng Phòng Thủ Theo Kiểu Build</H3>
    <div className="grid gap-3 sm:grid-cols-2">
     <Panel>
      <div className="font-heading text-sm font-bold text-poe-gold mb-2">Armour Stacker (Str builds)</div>
@@ -137,7 +137,7 @@ export default function S04_DefenseLayers() {
     </Panel>
    </div>
 
-   <H3>Flask System — Defense layer bị underestimate</H3>
+   <H3>Hệ Thống Bình — Lớp Phòng Thủ Bị Đánh Giá Thấp</H3>
    <P>
     5 flask slots là <B>5 defense/offense layers thêm</B>. Flask management tốt = sống sót tốt hơn đáng kể:
    </P>

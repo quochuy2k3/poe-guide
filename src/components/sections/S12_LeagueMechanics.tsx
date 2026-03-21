@@ -3,7 +3,7 @@ import SectionImage from "@/components/SectionImage";
 
 export default function S12_LeagueMechanics() {
  return (
-  <Section id="league" num="XII" title="League Mechanics — Profit & Strategy">
+  <Section id="league" num="XII" title="Cơ Chế Mùa Giải — Lợi Nhuận & Chiến Lược">
    <SectionImage src="/images/league-mechanics.jpg" alt="POE League Mechanics" className="mb-6" />
 
    <P>
@@ -11,7 +11,7 @@ export default function S12_LeagueMechanics() {
     Dưới đây là ranking và strategy cho từng mechanic:
    </P>
 
-   <H3>Profit Tier List</H3>
+   <H3>Bảng Xếp Hạng Lợi Nhuận</H3>
    <div className="space-y-4">
     {[
      {

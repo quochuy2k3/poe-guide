@@ -1,22 +1,29 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
+
+const advancedLinks = [
+  { href: "/damage-mechanics", label: "⚔️ Sát Thương" },
+  { href: "/meta-builds", label: "🏗️ Meta Builds" },
+  { href: "/endgame-strategy", label: "🗺️ Endgame" },
+];
 
 const sections = [
   { id: "intro", label: "Khái Niệm Cơ Bản", num: "I" },
-  { id: "classes", label: "Nhân Vật & Ascendancy", num: "II" },
-  { id: "damage", label: "Damage Mechanics", num: "III" },
-  { id: "defense", label: "Defense Layers", num: "IV" },
-  { id: "gems", label: "Skill Gems & Supports", num: "V" },
-  { id: "passive-tree", label: "Passive Tree & Jewels", num: "VI" },
-  { id: "items", label: "Items & Crafting", num: "VII" },
-  { id: "currency", label: "Currency & Economy", num: "VIII" },
-  { id: "leveling", label: "Leveling & Campaign", num: "IX" },
-  { id: "builds", label: "Builds & Meta", num: "X" },
-  { id: "atlas", label: "Atlas & Mapping", num: "XI" },
-  { id: "league", label: "League Mechanics", num: "XII" },
-  { id: "bosses", label: "Endgame Bosses", num: "XIII" },
-  { id: "tools", label: "Tools & Tips", num: "XIV" },
+  { id: "classes", label: "Nhân Vật & Thăng Hạng", num: "II" },
+  { id: "damage", label: "Cơ Chế Sát Thương", num: "III" },
+  { id: "defense", label: "Hệ Thống Phòng Thủ", num: "IV" },
+  { id: "gems", label: "Đá Kỹ Năng", num: "V" },
+  { id: "passive-tree", label: "Cây Kỹ Năng", num: "VI" },
+  { id: "items", label: "Trang Bị & Chế Tạo", num: "VII" },
+  { id: "currency", label: "Tiền Tệ & Kinh Tế", num: "VIII" },
+  { id: "leveling", label: "Cày Level & Chiến Dịch", num: "IX" },
+  { id: "builds", label: "Xây Dựng Nhân Vật", num: "X" },
+  { id: "atlas", label: "Bản Đồ & Atlas", num: "XI" },
+  { id: "league", label: "Cơ Chế Mùa Giải", num: "XII" },
+  { id: "bosses", label: "Boss Cuối Game", num: "XIII" },
+  { id: "tools", label: "Công Cụ & Mẹo", num: "XIV" },
 ];
 
 export default function Navigation() {
@@ -100,10 +107,20 @@ export default function Navigation() {
             </button>
           ))}
         </div>
-        <div className="border-t border-poe-border px-4 py-3">
+        <div className="border-t border-poe-border px-3 py-3 space-y-1">
+          <div className="text-[10px] font-heading font-semibold tracking-wider text-poe-text-dim uppercase mb-1 px-1">Nâng cao</div>
+          {advancedLinks.map(({ href, label }) => (
+            <Link
+              key={href}
+              href={href}
+              className="flex items-center gap-1 rounded px-2 py-1.5 text-xs text-poe-text-dim hover:text-poe-gold hover:bg-poe-surface/50 transition-all"
+            >
+              {label}
+            </Link>
+          ))}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="text-xs text-poe-text-dim hover:text-poe-gold transition-colors"
+            className="mt-1 text-[11px] text-poe-text-dim hover:text-poe-gold transition-colors px-1"
           >
             ↑ Về đầu trang
           </button>
