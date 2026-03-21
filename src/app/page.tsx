@@ -2,6 +2,7 @@ import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import ReadingProgress from "@/components/ReadingProgress";
 import BackToTop from "@/components/BackToTop";
+import StickyGuideBar from "@/components/StickyGuideBar";
 import S01 from "@/components/sections/S01_BasicConcepts";
 import S02 from "@/components/sections/S02_Classes";
 import S03 from "@/components/sections/S03_DamageMechanics";
@@ -102,6 +103,8 @@ export default function Home() {
             </a>
           </div>
         </header>
+
+        <StickyGuideBar />
 
         {/* Content sections */}
         <div className="mx-auto max-w-4xl space-y-24 px-6 py-16 pt-8">
