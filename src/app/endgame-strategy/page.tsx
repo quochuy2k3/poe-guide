@@ -407,57 +407,57 @@ export default function EndgameStrategyPage() {
           {/* ═══════════════════════════════════════════════════════
               IV. CRAFTING GUIDE
              ═══════════════════════════════════════════════════════ */}
-          <Section id="crafting" num="IV" title="Crafting Guide Chi Tiet">
+          <Section id="crafting" num="IV" title="Crafting Guide Chi Tiết">
             <P>
-              Crafting là cach để tao ra item mạnh nhất trong game. PoE có nhiều phương pháp craft,
-              mỗi cach có uu/nhuoc  riêng. Duoi đây là hướng dẫn từng bước cho các phương pháp phổ biến nhat.
+              Crafting là cách để tạo ra item mạnh nhất trong game. PoE có nhiều phương pháp craft,
+              mỗi cách có ưu/nhược riêng. Dưới đây là hướng dẫn từng bước cho các phương pháp phổ biến nhất.
             </P>
 
             <H3>4.1. Essence Crafting</H3>
             <P>
-              Essence <B>dam bao 1 mod cũ the</B> khi sự dùng trên item, động thoi reroll tat ca mod khác (giong Chaos Orb nhung có 1 guaranteed mod).
+              Essence <B>đảm bảo 1 mod cụ thể</B> khi sử dụng trên item, đồng thời reroll tất cả mod khác (giống Chaos Orb nhưng có 1 guaranteed mod).
             </P>
-            <H4>Bước thuc hien &mdash; Vì du: Craft body armour với +Life cao</H4>
+            <H4>Bước thực hiện &mdash; Ví dụ: Craft body armour với +Life cao</H4>
             <div className="overflow-x-auto mb-4">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Buoc</th><th>Hanh dong</th><th>Chi phi (~)</th></tr>
+                  <tr><th>Bước</th><th>Hành động</th><th>Chi phí (~)</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td>1</td><td>Mua item base iLvl 86+ (vd: Vaal Regalia ES base hoac Astral Plate armour base)</td><td>5-20c</td></tr>
-                  <tr><td>2</td><td>Dung <B>Deafening Essence of Greed</B> (T1 Life: +120 max life) spam cho den khi có prefix/suffix phu hop</td><td>5-15c/lan x 20-50 lan = <Gold>100-750c</Gold></td></tr>
-                  <tr><td>3</td><td>Neu có 2 prefix tốt (Life + 1 prefix khac), craft &quot;Prefixes Cannot be Changed&quot; (2 Divine) roi dùng Orb of Scouring để xoa suffix</td><td>2 Divine</td></tr>
-                  <tr><td>4</td><td>Benchcraft suffix mong muon (vd: +resist, +craft mod)</td><td>Varies</td></tr>
+                  <tr><td>1</td><td>Mua item base iLvl 86+ (vd: Vaal Regalia ES base hoặc Astral Plate armour base)</td><td>5-20c</td></tr>
+                  <tr><td>2</td><td>Dùng <B>Deafening Essence of Greed</B> (T1 Life: +120 max life) spam cho đến khi có prefix/suffix phù hợp</td><td>5-15c/lần x 20-50 lần = <Gold>100-750c</Gold></td></tr>
+                  <tr><td>3</td><td>Nếu có 2 prefix tốt (Life + 1 prefix khác), craft &quot;Prefixes Cannot be Changed&quot; (2 Divine) rồi dùng Orb of Scouring để xóa suffix</td><td>2 Divine</td></tr>
+                  <tr><td>4</td><td>Benchcraft suffix mong muốn (vd: +resist, +craft mod)</td><td>Varies</td></tr>
                 </tbody>
               </table>
             </div>
 
             <H3>4.2. Fossil Crafting</H3>
             <P>
-              Fossil được dùng kem <B>Resonator</B>. Moi fossil <B>tang/giam trong so (weight)</B> của các mod có tag tương ung.
-              Không dam bao mod cũ thể nhung có thể <B>block mod không mong muon</B>.
+              Fossil được dùng kèm <B>Resonator</B>. Mỗi fossil <B>tăng/giảm trọng số (weight)</B> của các mod có tag tương ứng.
+              Không đảm bảo mod cụ thể nhưng có thể <B>block mod không mong muốn</B>.
             </P>
-            <H4>Bước thuc hien &mdash; Vì du: Craft Physical DPS weapon</H4>
+            <H4>Bước thực hiện &mdash; Ví dụ: Craft Physical DPS weapon</H4>
             <div className="overflow-x-auto mb-4">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Buoc</th><th>Hanh dong</th></tr>
+                  <tr><th>Bước</th><th>Hành động</th></tr>
                 </thead>
                 <tbody>
                   <tr><td>1</td><td>Mua weapon base iLvl 83+ (vd: Exquisite Blade, Vaal Axe)</td></tr>
-                  <tr><td>2</td><td>Dung <B>Jagged Fossil</B> (tang weight Physical mod) + <B>Corroded Fossil</B> (block Elemental/Chaos mod) trong <B>Prime Resonator</B> (2 socket)</td></tr>
-                  <tr><td>3</td><td>Spam cho den khi hit T1-T2 %Phys + T1-T2 Flat Phys + Hybrid Phys</td></tr>
-                  <tr><td>4</td><td>Benchcraft Attack Speed hoac Crit như suffix cuoi</td></tr>
+                  <tr><td>2</td><td>Dùng <B>Jagged Fossil</B> (tăng weight Physical mod) + <B>Corroded Fossil</B> (block Elemental/Chaos mod) trong <B>Prime Resonator</B> (2 socket)</td></tr>
+                  <tr><td>3</td><td>Spam cho đến khi hit T1-T2 %Phys + T1-T2 Flat Phys + Hybrid Phys</td></tr>
+                  <tr><td>4</td><td>Benchcraft Attack Speed hoặc Crit như suffix cuối</td></tr>
                 </tbody>
               </table>
             </div>
             <P>
-              <B>Fossil phổ biến va cộng dung:</B>
+              <B>Fossil phổ biến và công dụng:</B>
             </P>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Fossil</th><th>Tang</th><th>Giam/Block</th><th>Gia (~)</th></tr>
+                  <tr><th>Fossil</th><th>Tăng</th><th>Giảm/Block</th><th>Giá (~)</th></tr>
                 </thead>
                 <tbody>
                   <tr><td className="text-poe-gold font-semibold">Jagged</td><td>Physical</td><td>&mdash;</td><td>1-3c</td></tr>
@@ -467,67 +467,67 @@ export default function EndgameStrategyPage() {
                   <tr><td className="text-poe-gold font-semibold">Frigid</td><td>Cold</td><td>Fire</td><td>1c</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Metallic</td><td>Lightning</td><td>Physical</td><td>1c</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Corroded</td><td>Chaos/Bleed/Poison</td><td>Elemental</td><td>2-5c</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Aberrant</td><td>Chaos</td><td>Elemental (giam)</td><td>1-2c</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Aberrant</td><td>Chaos</td><td>Elemental (giảm)</td><td>1-2c</td></tr>
                   <tr><td className="text-poe-gold font-semibold">Lucent</td><td>Mana</td><td>Speed</td><td>1c</td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Hollow</td><td>Co hoi Abyssal Socket</td><td>&mdash;</td><td>5-15c</td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Hollow</td><td>Cơ hội Abyssal Socket</td><td>&mdash;</td><td>5-15c</td></tr>
                 </tbody>
               </table>
             </div>
 
             <H3>4.3. Harvest Crafting</H3>
             <P>
-              Harvest là phương pháp craft <B>mạnh nhất</B> vì no <B>ton trong meta-craft mod</B>
+              Harvest là phương pháp craft <B>mạnh nhất</B> vì nó <B>tôn trọng meta-craft mod</B>
               (&ldquo;Prefixes Cannot be Changed&rdquo;, &ldquo;Suffixes Cannot be Changed&rdquo;).
-              Đây là điểm khác biet quan trọng so với Fossil va Essence (khong ton trong meta-craft).
+              Đây là điểm khác biệt quan trọng so với Fossil và Essence (không tôn trọng meta-craft).
             </P>
-            <H4>Ky thuat chinh: Harvest Reforge với Meta-craft</H4>
+            <H4>Kỹ thuật chính: Harvest Reforge với Meta-craft</H4>
             <div className="overflow-x-auto mb-4">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Buoc</th><th>Hanh dong</th><th>Chi phi</th></tr>
+                  <tr><th>Bước</th><th>Hành động</th><th>Chi phí</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td>1</td><td>Co item với <B>3 prefix tot</B> (vd: T1 Life, T1 %ES, T1 Flat ES trên body armour)</td><td>&mdash;</td></tr>
+                  <tr><td>1</td><td>Có item với <B>3 prefix tốt</B> (vd: T1 Life, T1 %ES, T1 Flat ES trên body armour)</td><td>&mdash;</td></tr>
                   <tr><td>2</td><td>Benchcraft <B>&ldquo;Prefixes Cannot Be Changed&rdquo;</B></td><td><Gold>2 Divine Orb</Gold></td></tr>
-                  <tr><td>3</td><td>Dung <B>Harvest Reforge</B> (vd: Reforge Fire = dam bao có ít nhất 1 fire tag suffix)</td><td>Harvest craft cost</td></tr>
-                  <tr><td>4</td><td>Prefix giữ nguyen, chỉ suffix bị reroll. Lap lai bước 2-3 cho den khi có suffix mong muon.</td><td>2 Div mỗi lan</td></tr>
+                  <tr><td>3</td><td>Dùng <B>Harvest Reforge</B> (vd: Reforge Fire = đảm bảo có ít nhất 1 fire tag suffix)</td><td>Harvest craft cost</td></tr>
+                  <tr><td>4</td><td>Prefix giữ nguyên, chỉ suffix bị reroll. Lặp lại bước 2-3 cho đến khi có suffix mong muốn.</td><td>2 Div mỗi lần</td></tr>
                 </tbody>
               </table>
             </div>
             <Tip>
               <B>Harvest Reforge quan trọng:</B><br />
-              - <B>Reforge Speed</B>: Dam bao 1 speed mod (Attack/Cast/Move Speed suffix)<br />
-              - <B>Reforge Caster</B>: Dam bao 1 caster mod (Spell Damage, +Gem Level)<br />
-              - <B>Reforge Defence</B>: Dam bao 1 defence mod (Resist, Armour/Evasion/ES)<br />
-              - <B>Reforge more likely/less likely</B>: Tang/giam weight mod, nham T1 để hon
+              - <B>Reforge Speed</B>: Đảm bảo 1 speed mod (Attack/Cast/Move Speed suffix)<br />
+              - <B>Reforge Caster</B>: Đảm bảo 1 caster mod (Spell Damage, +Gem Level)<br />
+              - <B>Reforge Defence</B>: Đảm bảo 1 defence mod (Resist, Armour/Evasion/ES)<br />
+              - <B>Reforge more likely/less likely</B>: Tăng/giảm weight mod, nhắm T1 dễ hơn
             </Tip>
 
             <H3>4.4. Recombinator</H3>
             <P>
-              Recombinator cho phep <B>gop 2 item cũng loai</B> thành 1 item moi, lay mod từ ca 2.
-              Đây là cach <B>tao item GG nhat</B> nhung đổi hoi hiệu biet sau ve mod system.
+              Recombinator cho phép <B>gộp 2 item cùng loại</B> thành 1 item mới, lấy mod từ cả 2.
+              Đây là cách <B>tạo item GG nhất</B> nhưng đòi hỏi hiểu biết sâu về mod system.
             </P>
-            <H4>Bước thuc hien cơ bản:</H4>
+            <H4>Bước thực hiện cơ bản:</H4>
             <div className="overflow-x-auto mb-4">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Buoc</th><th>Hanh dong</th></tr>
+                  <tr><th>Bước</th><th>Hành động</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td>1</td><td><B>Tao 2 item 1-mod</B>: Dung Orb of Alteration spam trên 2 base cũng loai, mỗi cai có 1 mod bạn muon (vd: Item A có T1 %Phys, Item B có T1 Flat Phys)</td></tr>
-                  <tr><td>2</td><td><B>Recombine</B>: Kết quả có thể là item 2-mod (co ca 2 mod mong muon), hoac mat 1 mod. Ty le thành cộng ~50%.</td></tr>
-                  <tr><td>3</td><td><B>Tiep tuc layer</B>: Lay item 2-mod, recombine với item 1-mod khác để có 3-mod item.</td></tr>
-                  <tr><td>4</td><td><B>Advanced</B>: Gop 2 item 2-mod để có 3-4 mod. Gop 2 item 3-mod để có 4-5 mod. Cang nhiều mod, tỷ lệ thành cộng cang thap.</td></tr>
+                  <tr><td>1</td><td><B>Tạo 2 item 1-mod</B>: Dùng Orb of Alteration spam trên 2 base cùng loại, mỗi cái có 1 mod bạn muốn (vd: Item A có T1 %Phys, Item B có T1 Flat Phys)</td></tr>
+                  <tr><td>2</td><td><B>Recombine</B>: Kết quả có thể là item 2-mod (có cả 2 mod mong muốn), hoặc mất 1 mod. Tỷ lệ thành công ~50%.</td></tr>
+                  <tr><td>3</td><td><B>Tiếp tục layer</B>: Lấy item 2-mod, recombine với item 1-mod khác để có 3-mod item.</td></tr>
+                  <tr><td>4</td><td><B>Advanced</B>: Gộp 2 item 2-mod để có 3-4 mod. Gộp 2 item 3-mod để có 4-5 mod. Càng nhiều mod, tỷ lệ thành công càng thấp.</td></tr>
                 </tbody>
               </table>
             </div>
             <Warning>
-              <B>Quy tac Recombinator:</B><br />
-              - 2 item <B>phai cũng base type</B> (ca 2 là belt, hoac ca 2 là body armour, v.v.)<br />
-              - Mod tier cang cao, có hoi giữ lai cang thap<br />
-              - iLvl của kết quả = iLvl cao nhất của 2 item đầu vao<br />
-              - Có thể &ldquo;nang cap&rdquo; iLvl: Recombine item iLvl 84 + item iLvl 86 có 50% có hoi ra iLvl 86<br />
-              - <B>Exclusive mod</B> (vd: Essence mod, Delve mod) có thể giữ lai qua recombination
+              <B>Quy tắc Recombinator:</B><br />
+              - 2 item <B>phải cùng base type</B> (cả 2 là belt, hoặc cả 2 là body armour, v.v.)<br />
+              - Mod tier càng cao, cơ hội giữ lại càng thấp<br />
+              - iLvl của kết quả = iLvl cao nhất của 2 item đầu vào<br />
+              - Có thể &ldquo;nâng cấp&rdquo; iLvl: Recombine item iLvl 84 + item iLvl 86 có 50% cơ hội ra iLvl 86<br />
+              - <B>Exclusive mod</B> (vd: Essence mod, Delve mod) có thể giữ lại qua recombination
             </Warning>
           </Section>
 
@@ -536,154 +536,154 @@ export default function EndgameStrategyPage() {
              ═══════════════════════════════════════════════════════ */}
           <Section id="boss-rush" num="V" title="Boss Rush Strategy">
             <P>
-              Boss farming là cach kiem currency <B>on dinh va có thể du doan</B>.
-              Moi boss có sét fragment  riêng, va loi nhuan phu thuộc vao <B>toc đó giet + giá drop hien tai</B>.
+              Boss farming là cách kiếm currency <B>ổn định và có thể dự đoán</B>.
+              Mỗi boss có set fragment riêng, và lợi nhuận phụ thuộc vào <B>tốc độ giết + giá drop hiện tại</B>.
             </P>
 
-            <H3>5.1. Tong quan loi nhuan các boss</H3>
+            <H3>5.1. Tổng quan lợi nhuận các boss</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Boss</th><th>Fragment Can</th><th>Drop Dang Chu Y</th><th>Loi nhuan/gio (~)</th></tr>
+                  <tr><th>Boss</th><th>Fragment Cần</th><th>Drop Đáng Chú Ý</th><th>Lợi nhuận/giờ (~)</th></tr>
                 </thead>
                 <tbody>
                   <tr>
                     <td className="text-poe-gold font-semibold">The Shaper</td>
                     <td>4 Guardian Fragment (Hydra, Phoenix, Minotaur, Chimera)</td>
                     <td>Dying Sun, Shaper&apos;s Touch, Starforge, Shaper item bases</td>
-                    <td><Gold>4-8 Divine/gio</Gold></td>
+                    <td><Gold>4-8 Divine/giờ</Gold></td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">Uber Elder</td>
                     <td>4 Shaper + 4 Elder Fragment</td>
-                    <td>Mark of thể Shaper, Watcher&apos;s Eye (<Gold>1-50+ Divine</Gold> tuy mod), Disintegrator</td>
-                    <td><Gold>5-15 Divine/gio</Gold></td>
+                    <td>Mark of the Shaper, Watcher&apos;s Eye (<Gold>1-50+ Divine</Gold> tùy mod), Disintegrator</td>
+                    <td><Gold>5-15 Divine/giờ</Gold></td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">The Maven</td>
                     <td>10 Maven Splinter = 1 Maven&apos;s Writ</td>
-                    <td>Elevated Sextant (truoc 3.24), Orb of Conflict, Maven&apos;s Orb, Awakened Support Gem</td>
-                    <td><Gold>3-10 Divine/gio</Gold></td>
+                    <td>Elevated Sextant (trước 3.24), Orb of Conflict, Maven&apos;s Orb, Awakened Support Gem</td>
+                    <td><Gold>3-10 Divine/giờ</Gold></td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">Searing Exarch</td>
-                    <td>28 Searing Exarch invitations (tu Eldritch map)</td>
+                    <td>28 Searing Exarch invitations (từ Eldritch map)</td>
                     <td>Exceptional Eldritch Ember/Ichor, Forbidden Flame/Flesh, Eldritch Implicit base</td>
-                    <td><Gold>3-8 Divine/gio</Gold></td>
+                    <td><Gold>3-8 Divine/giờ</Gold></td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">Eater of Worlds</td>
                     <td>28 Black Star invitations</td>
-                    <td>Melding of thể Flesh, Ashes of thể Stars (<Gold>5-20 Divine</Gold>)</td>
-                    <td><Gold>3-10 Divine/gio</Gold></td>
+                    <td>Melding of the Flesh, Ashes of the Stars (<Gold>5-20 Divine</Gold>)</td>
+                    <td><Gold>3-10 Divine/giờ</Gold></td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">The Feared (Maven)</td>
                     <td>Maven&apos;s Writ + Cortex/Chayula/Shaper/Elder/Atziri fragment</td>
                     <td>Double Elevated item, Awakened Gem level up</td>
-                    <td><Gold>5-20 Divine/gio</Gold> (cao nhất nếu Watcher&apos;s Eye tot)</td>
+                    <td><Gold>5-20 Divine/giờ</Gold> (cao nhất nếu Watcher&apos;s Eye tốt)</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <H3>5.2. Chien luoc toi ưu Boss Rush</H3>
+            <H3>5.2. Chiến lược tối ưu Boss Rush</H3>
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Mua fragment bulk:</B> Mua 20-50 sét fragment cũng luc để giảm thời gian trade. Dung TFT Discord hoac bulk trade trên poe.trade.</span>
+                <span><B>Mua fragment bulk:</B> Mua 20-50 set fragment cùng lúc để giảm thời gian trade. Dùng TFT Discord hoặc bulk trade trên poe.trade.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Build toi uu:</B> Cần DPS cao (&gt;10M sustained) + survivability. Pho bien: Detonate Dead, Righteous Fire + Fire Trap, Minion build.</span>
+                <span><B>Build tối ưu:</B> Cần DPS cao (&gt;10M sustained) + survivability. Phổ biến: Detonate Dead, Righteous Fire + Fire Trap, Minion build.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Toc đó là tien:</B> Nếu giet Shaper trong 2 phut (ke ca Guardian map), bạn chay được <Gold>15-20 set/gio</Gold>. Nếu mat 5 phut, chỉ được 8-10 set.</span>
+                <span><B>Tốc độ là tiền:</B> Nếu giết Shaper trong 2 phút (kể cả Guardian map), bạn chạy được <Gold>15-20 set/giờ</Gold>. Nếu mất 5 phút, chỉ được 8-10 set.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Check loot filter:</B> Mot so item cuc đạt có thể bị filter an. Tat filter check sau mỗi boss kill.</span>
+                <span><B>Check loot filter:</B> Một số item cực đắt có thể bị filter ẩn. Tắt filter check sau mỗi boss kill.</span>
               </li>
             </ul>
             <Tip>
-              <B>Uber boss:</B> Phien bạn &ldquo;Uber&rdquo; của mỗi boss (dung Fragment trong map device với keystone &ldquo;Uber&rdquo;)
-              có drop rate cao hon cho rare item nhung kho hon rất nhieu.
-              <B>Watcher&apos;s Eye</B> từ Uber Elder có 3 mod thay vì 2 &rarr; giá có thể len <Gold>50-200+ Divine</Gold> cho combo tot.
+              <B>Uber boss:</B> Phiên bản &ldquo;Uber&rdquo; của mỗi boss (dùng Fragment trong map device với keystone &ldquo;Uber&rdquo;)
+              có drop rate cao hơn cho rare item nhưng khó hơn rất nhiều.
+              <B>Watcher&apos;s Eye</B> từ Uber Elder có 3 mod thay vì 2 &rarr; giá có thể lên <Gold>50-200+ Divine</Gold> cho combo tốt.
             </Tip>
           </Section>
 
           {/* ═══════════════════════════════════════════════════════
               VI. TRADING TIPS
              ═══════════════════════════════════════════════════════ */}
-          <Section id="trading" num="VI" title="Trading Tips &mdash; Dinh Gia va Mua Ban">
+          <Section id="trading" num="VI" title="Trading Tips &mdash; Định Giá và Mua Bán">
             <P>
-              Trading là ky nang quan trọng nhất trong PoE (ngoai game). Dinh giá sai có thể mat hang chuc Divine.
+              Trading là kỹ năng quan trọng nhất trong PoE (ngoài game). Định giá sai có thể mất hàng chục Divine.
             </P>
 
-            <H3>6.1. Cong cũ cần thiet</H3>
+            <H3>6.1. Công cụ cần thiết</H3>
             <div className="grid gap-4 sm:grid-cols-2 mb-6">
               <Panel>
                 <div className="font-heading text-sm font-bold text-poe-gold mb-2">Awakened PoE Trade</div>
                 <ul className="space-y-1 text-sm">
-                  <li><B>Phim tat:</B> Ctrl+D (price check), Ctrl+Alt+D (advanced)</li>
-                  <li>Ket noi trực tiếp với poe.trade API</li>
-                  <li>Hien thi giá trung binh, median, va listing hien tai</li>
-                  <li><B>Bat bước phải cai</B> &mdash; tool quan trọng nhất cho trader</li>
+                  <li><B>Phím tắt:</B> Ctrl+D (price check), Ctrl+Alt+D (advanced)</li>
+                  <li>Kết nối trực tiếp với poe.trade API</li>
+                  <li>Hiển thị giá trung bình, median, và listing hiện tại</li>
+                  <li><B>Bắt buộc phải cài</B> &mdash; tool quan trọng nhất cho trader</li>
                 </ul>
               </Panel>
               <Panel>
                 <div className="font-heading text-sm font-bold text-poe-gold mb-2">poe.ninja</div>
                 <ul className="space-y-1 text-sm">
-                  <li>Theo đổi giá <B>real-time</B> của tat ca currency, unique, div card</li>
-                  <li>Xem build meta &mdash; biet item nao dang được sự dùng nhieu</li>
-                  <li>Dung để dinh giá nhanh unique item va currency exchange rate</li>
+                  <li>Theo dõi giá <B>real-time</B> của tất cả currency, unique, div card</li>
+                  <li>Xem build meta &mdash; biết item nào đang được sử dụng nhiều</li>
+                  <li>Dùng để định giá nhanh unique item và currency exchange rate</li>
                 </ul>
               </Panel>
             </div>
 
-            <H3>6.2. Cach dinh giá item rare</H3>
+            <H3>6.2. Cách định giá item rare</H3>
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Bước 1 &mdash; Nhan dien mod tot:</B> T1 Life (80+), T1 Resist (40+), T1 %ES, T1 Flat Phys, T1 Crit Multi, Open prefix/suffix cho benchcraft</span>
+                <span><B>Bước 1 &mdash; Nhận diện mod tốt:</B> T1 Life (80+), T1 Resist (40+), T1 %ES, T1 Flat Phys, T1 Crit Multi, Open prefix/suffix cho benchcraft</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Bước 2 &mdash; Search trên trade:</B> Tim item tương từ với các mod chinh. Filter theo: base type, mod range (80-90% của giá tri), total resist, total life</span>
+                <span><B>Bước 2 &mdash; Search trên trade:</B> Tìm item tương tự với các mod chính. Filter theo: base type, mod range (80-90% của giá trị), total resist, total life</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Bước 3 &mdash; So sanh:</B> Sap xep theo giá từ thấp den cao. Gia của bạn nên o khoảng <Gold>top 20-40%</Gold> listing (khong thấp nhat, không cao nhat)</span>
+                <span><B>Bước 3 &mdash; So sánh:</B> Sắp xếp theo giá từ thấp đến cao. Giá của bạn nên ở khoảng <Gold>top 20-40%</Gold> listing (không thấp nhất, không cao nhất)</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Bước 4 &mdash; Consider benchcraft:</B> Nếu item có open slot, tính giá với benchcraft tốt nhat. VD: open suffix + benchcraft &ldquo;gain % phys as extra fire&rdquo; tăng giá dang ke.</span>
+                <span><B>Bước 4 &mdash; Consider benchcraft:</B> Nếu item có open slot, tính giá với benchcraft tốt nhất. VD: open suffix + benchcraft &ldquo;gain % phys as extra fire&rdquo; tăng giá đáng kể.</span>
               </li>
             </ul>
 
-            <H3>6.3. Nhung item để bo qua mà thuc ra rất dat</H3>
+            <H3>6.3. Những item dễ bỏ qua mà thực ra rất đắt</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Item Type</th><th>Mod cần tim</th><th>Gia tri</th></tr>
+                  <tr><th>Item Type</th><th>Mod cần tìm</th><th>Giá trị</th></tr>
                 </thead>
                 <tbody>
-                  <tr><td className="text-poe-gold font-semibold">Jewel (rare)</td><td>3-4 mod tot: Life, Crit Multi, Attack/Cast Speed, %Damage</td><td><Gold>10c - 10 Divine</Gold></td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Cluster Jewel</td><td>3 notable tốt (vd: Feed thể Fury + Fuel thể Fight + Martial Prowess)</td><td><Gold>1-50 Divine</Gold></td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Jewel (rare)</td><td>3-4 mod tốt: Life, Crit Multi, Attack/Cast Speed, %Damage</td><td><Gold>10c - 10 Divine</Gold></td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Cluster Jewel</td><td>3 notable tốt (vd: Feed the Fury + Fuel the Fight + Martial Prowess)</td><td><Gold>1-50 Divine</Gold></td></tr>
                   <tr><td className="text-poe-gold font-semibold">Belt với high Life + Resist</td><td>100+ Life, 90+ total resist, open suffix</td><td><Gold>1-20 Divine</Gold></td></tr>
-                  <tr><td className="text-poe-gold font-semibold">Amulet với +1 Gem Level</td><td>+1 all skill gems hoac +1 specific (vd: +1 phys, +1 chaos)</td><td><Gold>1-30 Divine</Gold></td></tr>
+                  <tr><td className="text-poe-gold font-semibold">Amulet với +1 Gem Level</td><td>+1 all skill gems hoặc +1 specific (vd: +1 phys, +1 chaos)</td><td><Gold>1-30 Divine</Gold></td></tr>
                   <tr><td className="text-poe-gold font-semibold">Fractured base</td><td>T1 fractured mod (Life, ES, Resist) trên ilvl 86 base</td><td><Gold>10c - 20 Divine</Gold></td></tr>
                 </tbody>
               </table>
             </div>
 
-            <H3>6.4. Meo trade nhanh</H3>
+            <H3>6.4. Mẹo trade nhanh</H3>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Ban bulk:</B> Gop Essence, Fossil, Scarab thành lot 10-20 cai, bạn bulk luôn giá cao hon 15-25% so với bạn le.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Live search:</B> Dung live search trên poe.trade cho item hiếm (Watcher&apos;s Eye, specific cluster jewel) &mdash; bạn sẽ nhân thong bao khi có item mỗi list.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Currency flipping:</B> Mua currency giá thap, bạn giá cao. VD: Mua Chaos = 0.008 Divine, bạn Chaos = 0.009 Divine. Loi nhuan nhờ nhung volume lon.</span></li>
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>PoE dùng windowed (borderless):</B> Bat bước để Awakened PoE Trade hoat dong.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Bán bulk:</B> Gộp Essence, Fossil, Scarab thành lô 10-20 cái, bán bulk luôn giá cao hơn 15-25% so với bán lẻ.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Live search:</B> Dùng live search trên poe.trade cho item hiếm (Watcher&apos;s Eye, specific cluster jewel) &mdash; bạn sẽ nhận thông báo khi có item mới list.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Currency flipping:</B> Mua currency giá thấp, bán giá cao. VD: Mua Chaos = 0.008 Divine, bán Chaos = 0.009 Divine. Lợi nhuận nhỏ nhưng volume lớn.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>PoE dùng windowed (borderless):</B> Bắt buộc để Awakened PoE Trade hoạt động.</span></li>
             </ul>
           </Section>
 
@@ -692,34 +692,34 @@ export default function EndgameStrategyPage() {
              ═══════════════════════════════════════════════════════ */}
           <Section id="leveling-speed" num="VII" title="Leveling Speedrun Tricks">
             <P>
-              Pro player hoan thành 10 acts trong <B>3-5 gio</B> (world record ~2 gio 10 phut boi Tytykiller).
-              Duoi đây là các trick giup bạn tăng toc dang ke.
+              Pro player hoàn thành 10 acts trong <B>3-5 giờ</B> (world record ~2 giờ 10 phút bởi Tytykiller).
+              Dưới đây là các trick giúp bạn tăng tốc đáng kể.
             </P>
 
-            <H3>7.1. Movement là so 1</H3>
+            <H3>7.1. Movement là số 1</H3>
             <ul className="mb-4 space-y-2 text-sm">
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
                 <span>
-                  <B>Smoke Mine</B>: Skill quan trọng nhất cho speedrun. Dat mine &rarr; detonate &rarr; <Gold>teleport den vì trị mine + 30% movement speed buff</Gold> trong 4 giay.
-                  Gan left-click = Detonate Mine để từ động detonate khi click đi chuyen.
+                  <B>Smoke Mine</B>: Skill quan trọng nhất cho speedrun. Đặt mine &rarr; detonate &rarr; <Gold>teleport đến vị trí mine + 30% movement speed buff</Gold> trong 4 giây.
+                  Gán left-click = Detonate Mine để tự động detonate khi click di chuyển.
                 </span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Flame Dash</B>: Di chuyen qua terrain, vach ngan. Có 3 charge, recharge nhanh với quality/gem level.</span>
+                <span><B>Flame Dash</B>: Di chuyển qua terrain, vách ngăn. Có 3 charge, recharge nhanh với quality/gem level.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Quicksilver Flask</B>: Luon có ít nhất 1, tốt nhất là 2 Quicksilver Flask khi leveling. +40% movement speed mỗi flask.</span>
+                <span><B>Quicksilver Flask</B>: Luôn có ít nhất 1, tốt nhất là 2 Quicksilver Flask khi leveling. +40% movement speed mỗi flask.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Movement Speed boots</B>: Uu tiền cấp nhất boots với 10-30% MS. Có thể mua từ vendor hoac craft.</span>
+                <span><B>Movement Speed boots</B>: Ưu tiên cập nhật boots với 10-30% MS. Có thể mua từ vendor hoặc craft.</span>
               </li>
               <li className="flex gap-2">
                 <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" />
-                <span><B>Second Wind Support</B>: Link với Flame Dash để có thêm 1 charge. Có thể cũng link với Smoke Mine.</span>
+                <span><B>Second Wind Support</B>: Link với Flame Dash để có thêm 1 charge. Có thể cùng link với Smoke Mine.</span>
               </li>
             </ul>
 
@@ -727,7 +727,7 @@ export default function EndgameStrategyPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Recipe</th><th>Nguyen lieu</th><th>Kết quả</th><th>Khi nao dung</th></tr>
+                  <tr><th>Recipe</th><th>Nguyên liệu</th><th>Kết quả</th><th>Khi nào dùng</th></tr>
                 </thead>
                 <tbody>
                   <tr>
@@ -751,7 +751,7 @@ export default function EndgameStrategyPage() {
                   <tr>
                     <td className="text-poe-gold font-semibold">Physical Weapon</td>
                     <td>Weapon + Rustic Sash + Blacksmith&apos;s Whetstone</td>
-                    <td>Weapon với <Gold>40-89% increased Phys Damage</Gold> (tuy rarity sash)</td>
+                    <td>Weapon với <Gold>40-89% increased Phys Damage</Gold> (tùy rarity sash)</td>
                     <td>Level 1-28 cho melee</td>
                   </tr>
                   <tr>
@@ -764,21 +764,21 @@ export default function EndgameStrategyPage() {
                     <td className="text-poe-gold font-semibold">Movement Speed Boots</td>
                     <td>Boots (white/blue) + Quicksilver Flask + Orb of Augmentation</td>
                     <td>Boots với <Gold>10% movement speed</Gold></td>
-                    <td>Act 1 ngay lap tuc</td>
+                    <td>Act 1 ngay lập tức</td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">Resistance Ring</td>
                     <td>Iron Ring + color gem (red=Ruby, green=Topaz, blue=Sapphire)</td>
-                    <td>Resist ring tương ung</td>
+                    <td>Resist ring tương ứng</td>
                     <td>Khi cần resist cho boss</td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            <H3>7.3. Tips speedrun tong hop</H3>
+            <H3>7.3. Tips speedrun tổng hợp</H3>
             <ul className="mb-4 space-y-2 text-sm">
-              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Khong giet tat ca quai:</B> Chi giet quai trên đương di. Level nên bang hoac thấp hon zone level 2-3 level là duoc.</span></li>
+              <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Không giết tất cả quái:</B> Chỉ giết quái trên đường đi. Level nên bằng hoặc thấp hơn zone level 2-3 level là được.</span></li>
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Lay toàn bộ passive point quest:</B> Passive Respec quest có thể bo, nhung passive point quest thi <Gold>bat buoc</Gold>.</span></li>
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>League start build:</B> Explosive Trap, Poisonous Concoction, SRS, Rolling Magma, Lightning Conduit là các build level nhanh nhat.</span></li>
               <li className="flex gap-2"><span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-poe-gold-dim" /><span><B>Skip side content:</B> Không lam Labyrinth khi leveling (tru khi cần Ascendancy node quan trọng). Quay lại sau khi xong Act 10.</span></li>

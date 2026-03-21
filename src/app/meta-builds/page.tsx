@@ -87,7 +87,7 @@ export default function MetaBuildsPage() {
               Patch 3.25 &ndash; 3.28 &bull; Pro-Gamer Edition
             </p>
             <p className="mx-auto mt-6 max-w-xl text-sm leading-relaxed text-poe-text-dim">
-              Hướng dẫn chỉ tiết top builds mạnh nhất cho League Starter, Boss Killer, Speed Farming.
+              Hướng dẫn chi tiết top builds mạnh nhất cho League Starter, Boss Killer, Speed Farming.
               Bao gồm Ascendancy Tier List, Gem Links, Unique Items và Budget Scaling từ 1 Divine đến 100+ Divine.
             </p>
           </div>
@@ -114,13 +114,13 @@ export default function MetaBuildsPage() {
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">3.26</td>
-                    <td>Secrets of thể Atlas</td>
+                    <td>Secrets of the Atlas</td>
                     <td>Q3 2025</td>
                     <td>SRS buff, Shield Crush Jugg meta, Spectre scaling mới</td>
                   </tr>
                   <tr>
                     <td className="text-poe-gold font-semibold">3.27</td>
-                    <td>Keepers of thể Flame</td>
+                    <td>Keepers of the Flame</td>
                     <td>Q4 2025</td>
                     <td>Cyclone Gladiator, Siege Ballista Hierophant, Holy skills preview</td>
                   </tr>
@@ -185,7 +185,7 @@ export default function MetaBuildsPage() {
                       "1",
                       "GC Miner",
                       "Witch / Elementalist",
-                      "Glacial Cascade of thể Fissure + Blastchain Mine",
+                      "Glacial Cascade of the Fissure + Blastchain Mine",
                       "10M DPS với gear 1-mod. Scale lên 100M DPS endgame. Freeze mọi thứ. SSF-viable.",
                       "0-5 Div",
                     ],
@@ -300,7 +300,7 @@ export default function MetaBuildsPage() {
               {/* Boss Killer 1 */}
               <Panel>
                 <div className="flex items-center justify-between mb-2">
-                  <div className="font-heading text-base font-bold text-poe-gold">#1 &mdash; Viper Strike of thể Mamba (Nightblade Mamba)</div>
+                  <div className="font-heading text-base font-bold text-poe-gold">#1 &mdash; Viper Strike of the Mamba (Nightblade Mamba)</div>
                   <span className="text-xs text-poe-gold-bright bg-poe-gold/10 px-2 py-0.5 rounded">S-Tier</span>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-2 text-sm">
@@ -308,7 +308,7 @@ export default function MetaBuildsPage() {
                     <div className="text-poe-text-dim text-xs mb-1">CLASS / ASCENDANCY</div>
                     <div className="text-poe-text-bright">Shadow / Assassin hoặc Ranger / Pathfinder</div>
                     <div className="text-poe-text-dim text-xs mb-1 mt-3">MAIN SKILL</div>
-                    <div className="text-poe-green">Viper Strike of thể Mamba + Bino&apos;s Kitchen Knife</div>
+                    <div className="text-poe-green">Viper Strike of the Mamba + Bino&apos;s Kitchen Knife</div>
                     <div className="text-poe-text-dim text-xs mb-1 mt-3">ESTIMATED DPS</div>
                     <div className="text-poe-gold-bright font-bold">80-150M+ Poison DPS (stacking)</div>
                   </div>
@@ -335,7 +335,7 @@ export default function MetaBuildsPage() {
                     <div className="text-poe-text-dim text-xs mb-1">CLASS / ASCENDANCY</div>
                     <div className="text-poe-text-bright">Witch / Elementalist</div>
                     <div className="text-poe-text-dim text-xs mb-1 mt-3">MAIN SKILL</div>
-                    <div className="text-poe-green">Glacial Cascade of thể Fissure + Blastchain Mine Support</div>
+                    <div className="text-poe-green">Glacial Cascade of the Fissure + Blastchain Mine Support</div>
                     <div className="text-poe-text-dim text-xs mb-1 mt-3">ESTIMATED DPS</div>
                     <div className="text-poe-gold-bright font-bold">10M (league start) &rarr; 100M+ (endgame)</div>
                   </div>
@@ -400,7 +400,7 @@ export default function MetaBuildsPage() {
                     <div className="text-xs">Frostbearer cold mortar overlap = DPS single target cực cao.
                     Lv85 Spectres ở 3.28 với lv30 gem scaling. Tanky nhờ block + minion aggro.</div>
                     <div className="text-poe-text-dim text-xs mb-1 mt-3">KEY ITEMS</div>
-                    <div className="text-xs">+2 Minion Gems helmet, <Unique>Ashes of thể Stars</Unique> (8-15 Div), Ghastly Abyss Jewels</div>
+                    <div className="text-xs">+2 Minion Gems helmet, <Unique>Ashes of the Stars</Unique> (8-15 Div), Ghastly Abyss Jewels</div>
                   </div>
                 </div>
               </Panel>
@@ -427,7 +427,7 @@ export default function MetaBuildsPage() {
                     <div className="text-xs">Guardian nhận 4 buff lớn ở 3.28. Sentinel of Radiance là permanent minion (+36% MS).
                     Hybrid minion+self damage. Rất tanky với Aegis Aurora.</div>
                     <div className="text-poe-text-dim text-xs mb-1 mt-3">KEY ITEMS</div>
-                    <div className="text-xs"><Unique>Aegis Aurora</Unique> (10-20 Div), +2 Amulet, <Unique>Skin of thể Lords</Unique></div>
+                    <div className="text-xs"><Unique>Aegis Aurora</Unique> (10-20 Div), +2 Amulet, <Unique>Skin of the Lords</Unique></div>
                   </div>
                 </div>
               </Panel>
@@ -485,7 +485,7 @@ export default function MetaBuildsPage() {
                       "4",
                       "Elemental Hit Deadeye",
                       "Ranger / Deadeye",
-                      "Elemental Hit of thể Spectrum",
+                      "Elemental Hit of the Spectrum",
                       "Flat damage khổng lồ từ skill. Tốt nhất ở low budget vì không cần bow đắt. Trinity scaling.",
                       "5-30 Div",
                     ],
@@ -665,9 +665,9 @@ export default function MetaBuildsPage() {
                     ["Tabula Rasa", "0.1-0.3", "Mọi build (early)", "6-link trắng. Bỏ bất kỳ 6 gems nào vào."],
                     ["Loreweave", "1-3", "Builds cần max res", "Set max res = 78%. Flat damage + crit."],
                     ["Prism Guardian", "0.5-2", "Aura stackers, LL builds", "Socketed Auras reserve Life. Blood Magic for auras."],
-                    ["Bone Helmet (+2/+3 minion)", "1-5 (crafted)", "Minion builds", "+2/+3 Minion Gem Level. Cuc ky quan trọng cho Spectre/SRS."],
-                    ["Dying Sun", "3-8", "Projectile builds", "+2 Projectiles. AoE tang. Flask uptime với Pathfinder."],
-                    ["Bottled Faith", "10-25", "Moi build crit", "Consecrated Ground. 2% base crit. Increased damage taken."],
+                    ["Bone Helmet (+2/+3 minion)", "1-5 (crafted)", "Minion builds", "+2/+3 Minion Gem Level. Cực kỳ quan trọng cho Spectre/SRS."],
+                    ["Dying Sun", "3-8", "Projectile builds", "+2 Projectiles. AoE tăng. Flask uptime với Pathfinder."],
+                    ["Bottled Faith", "10-25", "Mọi build crit", "Consecrated Ground. 2% base crit. Increased damage taken."],
                   ].map(([name, price, builds, effect]) => (
                     <tr key={name}>
                       <td className="rarity-unique font-semibold whitespace-nowrap">{name}</td>
@@ -681,19 +681,19 @@ export default function MetaBuildsPage() {
             </div>
 
             <Warning>
-              <B>Moi mua trong 3.28:</B> <Unique>Screams of thể Desiccated</Unique> là unique mỗi được goi là &quot;doi thu của Mageblood.&quot;
-              Drop từ noi dùng Mirage League. Gia hien tai rất cao va chua on dinh.
+              <B>Mới mua trong 3.28:</B> <Unique>Screams of the Desiccated</Unique> là unique mới được gọi là &quot;đối thủ của Mageblood.&quot;
+              Drop từ nội dung Mirage League. Giá hiện tại rất cao và chưa ổn định.
             </Warning>
           </Section>
 
           {/* ═══════════════════════════════════════════
               VII. 6-LINK GEM SETUPS
           ═══════════════════════════════════════════ */}
-          <Section id="gem-links" num="VII" title="6-Link Gem Setups Cho Các Skill Pho Bien">
+          <Section id="gem-links" num="VII" title="6-Link Gem Setups Cho Các Skill Phổ Biến">
             <P>
-              Duoi đây là 6-link setup cho các main skill phổ biến nhất o 3.28 Mirage.
-              <B> Lưu ý:</B> 3.28 thay thể Awakened Gems bang <Gold>Exceptional Support Gems</Gold> moi,
-              mang hiệu ung gameplay thay vì chỉ tăng so. Returning Projectiles Support là gem mỗi mạnh nhất cho projectile builds.
+              Dưới đây là 6-link setup cho các main skill phổ biến nhất ở 3.28 Mirage.
+              <B> Lưu ý:</B> 3.28 thay thế Awakened Gems bằng <Gold>Exceptional Support Gems</Gold> mới,
+              mang hiệu ứng gameplay thay vì chỉ tăng số. Returning Projectiles Support là gem mới mạnh nhất cho projectile builds.
             </P>
 
             <H3>1. Righteous Fire (Chieftain / Juggernaut)</H3>
@@ -725,7 +725,7 @@ export default function MetaBuildsPage() {
               <div className="text-xs space-y-2">
                 <div className="text-poe-text-dim mb-2">MAIN 6-LINK (Bow - Clear):</div>
                 <div className="flex flex-wrap gap-1">
-                  {["Lightning Arrow", "Inspiration", "Added Lightning Damage", "Elemental Damage with Attacks", "Trinity", "Returning Projectiles (moi 3.28)"].map(g => (
+                  {["Lightning Arrow", "Inspiration", "Added Lightning Damage", "Elemental Damage with Attacks", "Trinity", "Returning Projectiles (mới 3.28)"].map(g => (
                     <span key={g} className="bg-poe-surface-2 border border-poe-border rounded px-2 py-1 text-poe-green text-xs">{g}</span>
                   ))}
                 </div>
@@ -744,12 +744,12 @@ export default function MetaBuildsPage() {
               </div>
             </Panel>
 
-            <H3>3. Glacial Cascade of thể Fissure (Miner Elementalist)</H3>
+            <H3>3. Glacial Cascade of the Fissure (Miner Elementalist)</H3>
             <Panel>
               <div className="text-xs space-y-2">
                 <div className="text-poe-text-dim mb-2">MAIN 6-LINK:</div>
                 <div className="flex flex-wrap gap-1">
-                  {["Glacial Cascade of thể Fissure", "Blastchain Mine", "Trap and Mine Damage", "Hypothermia", "Concentrated Effect", "Increased Critical Damage"].map(g => (
+                  {["Glacial Cascade of the Fissure", "Blastchain Mine", "Trap and Mine Damage", "Hypothermia", "Concentrated Effect", "Increased Critical Damage"].map(g => (
                     <span key={g} className="bg-poe-surface-2 border border-poe-border rounded px-2 py-1 text-poe-green text-xs">{g}</span>
                   ))}
                 </div>
@@ -796,7 +796,7 @@ export default function MetaBuildsPage() {
                   ))}
                 </div>
                 <div className="mt-2 text-poe-text-dim">
-                  <B>Key:</B> <Unique>Severed in Sleep</Unique> cho 60% Poison chance. Ghastly Jewels bo sung 40% con lai = 100%.
+                  <B>Key:</B> <Unique>Severed in Sleep</Unique> cho 60% Poison chance. Ghastly Jewels bổ sung 40% còn lại = 100%.
                 </div>
               </div>
             </Panel>
@@ -841,15 +841,15 @@ export default function MetaBuildsPage() {
                   ))}
                 </div>
                 <div className="mt-2 text-poe-text-dim">
-                  <B>Key:</B> Holy Hammers cascade thêm 2 lan khi consume Power Charge. Assassin&apos;s Mark dam bao uptime.
+                  <B>Key:</B> Holy Hammers cascade thêm 2 lần khi consume Power Charge. Assassin&apos;s Mark đảm bảo uptime.
                 </div>
               </div>
             </Panel>
 
             <Tip>
-              <B>Pseudo 7-Link trong 3.28:</B> Exceptional Support Gems có thể tao pseudo 7-link trên 6-link gear.
-              Vì du: <Gem>Returning Projectiles Support</Gem> tăng ~30% more damage VA lam projectile hit 2 lan = hiệu quả
-              như 2 support gems gop lai.
+              <B>Pseudo 7-Link trong 3.28:</B> Exceptional Support Gems có thể tạo pseudo 7-link trên 6-link gear.
+              Ví dụ: <Gem>Returning Projectiles Support</Gem> tăng ~30% more damage VÀ làm projectile hit 2 lần = hiệu quả
+              như 2 support gems gộp lại.
             </Tip>
           </Section>
 
@@ -858,8 +858,8 @@ export default function MetaBuildsPage() {
           ═══════════════════════════════════════════ */}
           <Section id="ascendancy-tier" num="VIII" title="Ascendancy Tier List &mdash; 3.28 Mirage">
             <P>
-              Tier list này dua trên hiệu suat tong thể trong Mirage League: league start viability,
-              endgame scaling, boss killing, va map farming.
+              Tier list này dựa trên hiệu suất tổng thể trong Mirage League: league start viability,
+              endgame scaling, boss killing, và map farming.
             </P>
 
             <H3>S-Tier &mdash; Meta Dominators</H3>
@@ -872,7 +872,7 @@ export default function MetaBuildsPage() {
                     <div className="text-xs text-poe-text-dim mt-1">
                       Undisputed #1 trong 3.28. Minion buffs game-changing: new support gems, adjusted gem scaling,
                       level 30 minion power spike. Level 85 Spectres + level 30 gem power = exponential scaling.
-                      Dominating Blow va Absolution đều S-tier. Poison SRS vẫn là league starter hang dau.
+                      Dominating Blow và Absolution đều S-tier. Poison SRS vẫn là league starter hàng đầu.
                     </div>
                   </div>
                 </div>
@@ -883,8 +883,8 @@ export default function MetaBuildsPage() {
                   <div>
                     <div className="font-heading text-sm font-bold text-poe-text-bright">Guardian (Templar)</div>
                     <div className="text-xs text-poe-text-dim mt-1">
-                      4 direct buffs trong 3.28. Sentinel of Radiance tro thành permanent minion với +36% Movement Speed.
-                      Absolution Guardian là boss killer hang dau. Aegis Aurora + block = tank cuc manh. Hybrid playstyle linh hoat.
+                      4 direct buffs trong 3.28. Sentinel of Radiance trở thành permanent minion với +36% Movement Speed.
+                      Absolution Guardian là boss killer hàng đầu. Aegis Aurora + block = tank cực mạnh. Hybrid playstyle linh hoạt.
                     </div>
                   </div>
                 </div>
@@ -895,14 +895,14 @@ export default function MetaBuildsPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Ascendancy</th><th>Class</th><th>Diem Manh</th><th>Best Builds</th></tr>
+                  <tr><th>Ascendancy</th><th>Class</th><th>Điểm Mạnh</th><th>Best Builds</th></tr>
                 </thead>
                 <tbody>
                   {[
                     ["Assassin", "Shadow", "Poison/Crit scaling. Elusive + Nightblade. Perfect cho Viper Strike.", "Viper Strike, CoC, Poison builds"],
-                    ["Saboteur", "Shadow", "Mine/Trap master. Born in thể Shadows blind. Pyromaniac regen.", "GC Miner, Seismic Trap"],
+                    ["Saboteur", "Shadow", "Mine/Trap master. Born in the Shadows blind. Pyromaniac regen.", "GC Miner, Seismic Trap"],
                     ["Deadeye", "Ranger", "Projectile king. Far Shot, Endless Munition, Gathering Winds.", "LA, TS, Ele Hit, Kinetic Blast"],
-                    ["Hierophant", "Templar", "Totem + mana scaling. MoM tanky. Siege Ballista manh.", "Siege Ballista, Freezing Pulse Totems"],
+                    ["Hierophant", "Templar", "Totem + mana scaling. MoM tanky. Siege Ballista mạnh.", "Siege Ballista, Freezing Pulse Totems"],
                     ["Trickster", "Shadow", "DoT mastery. Sustain + speed. Ghost Dance defense.", "Blight, Exsanguinate, ED/Contagion"],
                   ].map(([asc, cls, strength, builds]) => (
                     <tr key={asc}>
@@ -920,15 +920,15 @@ export default function MetaBuildsPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Ascendancy</th><th>Class</th><th>Diem Manh</th><th>Best Builds</th></tr>
+                  <tr><th>Ascendancy</th><th>Class</th><th>Điểm Mạnh</th><th>Best Builds</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["Slayer", "Duelist", "Overleech, cull 20%, AoE. Bleed Slam manh.", "Bleed Slam, Flicker Strike, Cyclone"],
+                    ["Slayer", "Duelist", "Overleech, cull 20%, AoE. Bleed Slam mạnh.", "Bleed Slam, Flicker Strike, Cyclone"],
                     ["Champion", "Duelist", "Fortify permanent, Adrenaline burst, Impale scaling.", "Impale Cyclone, EA Ballista"],
                     ["Juggernaut", "Marauder", "Endurance charges, Unstoppable, tank #1.", "RF, Holy Sweep, Boneshatter"],
                     ["Pathfinder", "Ranger", "Flask uptime 100%, poison scaling, Nature's Reprisal.", "Poisonous Concoction, Poison builds"],
-                    ["Elementalist", "Witch", "Exposure, Golem buffs (bi nerf 3.28), Shaper of Storms.", "GC Miner (van manh), Ignite"],
+                    ["Elementalist", "Witch", "Exposure, Golem buffs (bị nerf 3.28), Shaper of Storms.", "GC Miner (vẫn mạnh), Ignite"],
                     ["Berserker", "Marauder", "Rage, Aspect of Carnage 40% more, glass cannon.", "Holy Hammers (variant), Slam builds"],
                     ["Inquisitor", "Templar", "Inevitable Judgement ignore res, Pious Path regen.", "Holy Hammers, Spark, crit spells"],
                   ].map(([asc, cls, strength, builds]) => (
@@ -947,14 +947,14 @@ export default function MetaBuildsPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Ascendancy</th><th>Class</th><th>Van De</th></tr>
+                  <tr><th>Ascendancy</th><th>Class</th><th>Vấn Đề</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["Chieftain", "Marauder", "Explosion damage bị nerf 3.28. RF vẫn choi được nhung yếu hon truoc. Bị Jugg vuot mat ve tank."],
-                    ["Gladiator", "Duelist", "Block scaling bị canh tranh boi Guardian. Bleed builds bị Slayer lam tốt hon."],
-                    ["Occultist", "Witch", "Curse + ES builds niche. Bị Trickster lam tốt hon o DoT. Profane Bloom vẫn mạnh cho clear."],
-                    ["Raider", "Ranger", "Frenzy + Onslaught. Toc đó cao nhung damage ceiling thấp hon Deadeye/Pathfinder."],
+                    ["Chieftain", "Marauder", "Explosion damage bị nerf 3.28. RF vẫn chơi được nhưng yếu hơn trước. Bị Jugg vượt mặt về tank."],
+                    ["Gladiator", "Duelist", "Block scaling bị cạnh tranh bởi Guardian. Bleed builds bị Slayer làm tốt hơn."],
+                    ["Occultist", "Witch", "Curse + ES builds niche. Bị Trickster làm tốt hơn ở DoT. Profane Bloom vẫn mạnh cho clear."],
+                    ["Raider", "Ranger", "Frenzy + Onslaught. Tốc độ cao nhưng damage ceiling thấp hơn Deadeye/Pathfinder."],
                   ].map(([asc, cls, issue]) => (
                     <tr key={asc}>
                       <td className="text-poe-gold font-semibold whitespace-nowrap">{asc}</td>
@@ -967,9 +967,9 @@ export default function MetaBuildsPage() {
             </div>
 
             <Warning>
-              <B>Legacy of Phrecia Event (3.25):</B> Event này thay thể 19 ascendancy cũ bang phien bạn moi.
-              <B> Daughter of Oshabi</B> (shrine + poison) va <B>Architect of Chaos</B> (Vaal skills) là S-tier trong event.
-              Tuy nhien, các ascendancy này CHI ap dùng cho event, không phải league thuong.
+              <B>Legacy of Phrecia Event (3.25):</B> Event này thay thế 19 ascendancy cũ bằng phiên bản mới.
+              <B> Daughter of Oshabi</B> (shrine + poison) và <B>Architect of Chaos</B> (Vaal skills) là S-tier trong event.
+              Tuy nhiên, các ascendancy này CHỈ áp dụng cho event, không phải league thường.
             </Warning>
           </Section>
 
@@ -978,17 +978,17 @@ export default function MetaBuildsPage() {
           ═══════════════════════════════════════════ */}
           <Section id="budget-scaling" num="IX" title="Budget vs Investment Scaling">
             <P>
-              Hieu suat của mỗi build thay đổi rất lon tuy theo mức đầu tu. Duoi đây là phan tich chỉ tiết
-              cach các build phổ biến scale từ <Gold>1 Divine</Gold> den <Gold>100+ Divine</Gold>.
+              Hiệu suất của mỗi build thay đổi rất lớn tùy theo mức đầu tư. Dưới đây là phân tích chi tiết
+              cách các build phổ biến scale từ <Gold>1 Divine</Gold> đến <Gold>100+ Divine</Gold>.
             </P>
 
-            <H3>Phan loại mức đầu tu</H3>
+            <H3>Phân loại mức đầu tư</H3>
             <div className="grid gap-3 sm:grid-cols-4 mb-6">
               {[
-                { tier: "Budget", range: "0-10 Div", desc: "League start. Rare gear cơ bản, unique rẻ tien." },
+                { tier: "Budget", range: "0-10 Div", desc: "League start. Rare gear cơ bản, unique rẻ tiền." },
                 { tier: "Mid-Budget", range: "10-40 Div", desc: "Core uniques, 6-link, gem quality cao." },
                 { tier: "High Budget", range: "40-100 Div", desc: "Crafted gear, cluster jewels, Bottled Faith." },
-                { tier: "Mirror-Tier", range: "100+ Div", desc: "Mageblood, mirror gear, min-max hoan hao." },
+                { tier: "Mirror-Tier", range: "100+ Div", desc: "Mageblood, mirror gear, min-max hoàn hảo." },
               ].map(({ tier, range, desc }) => (
                 <Panel key={tier}>
                   <div className="font-heading text-sm font-bold text-poe-gold">{tier}</div>
@@ -998,20 +998,20 @@ export default function MetaBuildsPage() {
               ))}
             </div>
 
-            <H3>Scaling theo tung build</H3>
+            <H3>Scaling theo từng build</H3>
 
             <H4>Righteous Fire Chieftain</H4>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Muc Dau Tu</th><th>DPS</th><th>Content Có The Lam</th><th>Key Upgrades</th></tr>
+                  <tr><th>Mức Đầu Tư</th><th>DPS</th><th>Content Có Thể Làm</th><th>Key Upgrades</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["1 Div", "300K-500K RF DPS", "White/Yellow Maps (T1-T10)", "Life + Res gear, Rise of thể Phoenix shield"],
-                    ["10 Div", "1-2M RF + 3M Fire Trap", "Red Maps T16, some Pinnacles", "6-link, Elder helmet, Doryani's Prototype (tuy variant)"],
+                    ["1 Div", "300K-500K RF DPS", "White/Yellow Maps (T1-T10)", "Life + Res gear, Rise of the Phoenix shield"],
+                    ["10 Div", "1-2M RF + 3M Fire Trap", "Red Maps T16, some Pinnacles", "6-link, Elder helmet, Doryani's Prototype (tùy variant)"],
                     ["50 Div", "3-5M RF + 10M Fire Trap", "All Pinnacle Bosses, T17", "Crafted weapon, Bottled Faith, cluster jewels"],
-                    ["100+ Div", "5-8M RF + 20M+ Fire Trap", "All Uber Bosses, mỗi content", "Mageblood, double-influenced gear, Awakened gems (legacy)"],
+                    ["100+ Div", "5-8M RF + 20M+ Fire Trap", "All Uber Bosses, mọi content", "Mageblood, double-influenced gear, Awakened gems (legacy)"],
                   ].map(([invest, dps, content, upgrades]) => (
                     <tr key={invest}>
                       <td className="text-poe-gold font-semibold whitespace-nowrap">{invest}</td>
@@ -1028,14 +1028,14 @@ export default function MetaBuildsPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Muc Dau Tu</th><th>DPS</th><th>Content Có The Lam</th><th>Key Upgrades</th></tr>
+                  <tr><th>Mức Đầu Tư</th><th>DPS</th><th>Content Có Thể Làm</th><th>Key Upgrades</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["1 Div", "5-10M mine DPS", "Red Maps T16 (co thể farm)", "+1 Spell wand, Tabula Rasa"],
+                    ["1 Div", "5-10M mine DPS", "Red Maps T16 (có thể farm)", "+1 Spell wand, Tabula Rasa"],
                     ["10 Div", "20-40M mine DPS", "All Pinnacle Bosses", "6-link, Gloom Corona, crit multi jewels"],
                     ["50 Div", "60-100M mine DPS", "Uber Bosses comfortable", "Crafted wand, cluster jewels, bottled faith"],
-                    ["100+ Div", "150M+ mine DPS", "Uber Bosses deathless, mỗi content", "Double-elevated gear, Mageblood, perfect jewels"],
+                    ["100+ Div", "150M+ mine DPS", "Uber Bosses deathless, mọi content", "Double-elevated gear, Mageblood, perfect jewels"],
                   ].map(([invest, dps, content, upgrades]) => (
                     <tr key={invest}>
                       <td className="text-poe-gold font-semibold whitespace-nowrap">{invest}</td>
@@ -1052,12 +1052,12 @@ export default function MetaBuildsPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Muc Dau Tu</th><th>DPS</th><th>Content Có The Lam</th><th>Key Upgrades</th></tr>
+                  <tr><th>Mức Đầu Tư</th><th>DPS</th><th>Content Có Thể Làm</th><th>Key Upgrades</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["1 Div", "500K-1M (dung Ele Hit truoc)", "White/Yellow Maps", "Storm Cloud bow, basic scaling"],
-                    ["10 Div", "3-5M LA DPS", "Red Maps T16", "6-link, +2 bow hoac crafted bow, Inpulsa's"],
+                    ["1 Div", "500K-1M (dùng Ele Hit trước)", "White/Yellow Maps", "Storm Cloud bow, basic scaling"],
+                    ["10 Div", "3-5M LA DPS", "Red Maps T16", "6-link, +2 bow hoặc crafted bow, Inpulsa's"],
                     ["50 Div", "15-30M DPS", "Pinnacle Bosses, speed farming", "Nimis, Dying Sun, crafted bow, good jewels"],
                     ["100+ Div", "50-100M+ DPS", "Uber Bosses, extreme farming", "Headhunter/Mageblood, mirror bow, Nimis, perfect gear"],
                   ].map(([invest, dps, content, upgrades]) => (
@@ -1076,13 +1076,13 @@ export default function MetaBuildsPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Muc Dau Tu</th><th>DPS</th><th>Content Có The Lam</th><th>Key Upgrades</th></tr>
+                  <tr><th>Mức Đầu Tư</th><th>DPS</th><th>Content Có Thể Làm</th><th>Key Upgrades</th></tr>
                 </thead>
                 <tbody>
                   {[
                     ["1 Div", "2-5M poison DPS", "Yellow/Red Maps", "Severed in Sleep, Tabula, Ghastly Jewels cơ bản"],
                     ["10 Div", "10-20M poison DPS", "Red Maps T16, low Pinnacles", "6-link, United in Dream upgrade, +2 helmet"],
-                    ["50 Div", "40-60M poison DPS", "All Pinnacle Bosses", "Crafted +3 staff, Ashes of thể Stars, cluster jewels"],
+                    ["50 Div", "40-60M poison DPS", "All Pinnacle Bosses", "Crafted +3 staff, Ashes of the Stars, cluster jewels"],
                     ["100+ Div", "80-120M+ poison DPS", "Uber Bosses, T17 comfortable", "Double-influenced gear, perfect jewels, Mageblood"],
                   ].map(([invest, dps, content, upgrades]) => (
                     <tr key={invest}>
@@ -1100,14 +1100,14 @@ export default function MetaBuildsPage() {
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Muc Dau Tu</th><th>DPS</th><th>Content Có The Lam</th><th>Key Upgrades</th></tr>
+                  <tr><th>Mức Đầu Tư</th><th>DPS</th><th>Content Có Thể Làm</th><th>Key Upgrades</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["1 Div", "1-3M DoT DPS", "Red Maps T16 (Cane of Unravelling)", "Cane of Unravelling (vai Chaos), Life+Res gear"],
+                    ["1 Div", "1-3M DoT DPS", "Red Maps T16 (Cane of Unravelling)", "Cane of Unravelling (vài Chaos), Life+Res gear"],
                     ["10 Div", "5-10M DoT DPS", "T16 corrupted, low Pinnacles", "6-link, +2 Chaos amulet, crafted wand"],
                     ["50 Div", "15-25M DoT DPS", "Pinnacle Bosses", "Exceptional support gems, cluster jewels, crafted gear"],
-                    ["100+ Div", "30-40M DoT DPS", "Uber Bosses (nhung kho hon builds khac)", "Mageblood, perfect crafts. DoT ceiling thấp hon hit builds."],
+                    ["100+ Div", "30-40M DoT DPS", "Uber Bosses (nhưng khó hơn builds khác)", "Mageblood, perfect crafts. DoT ceiling thấp hơn hit builds."],
                   ].map(([invest, dps, content, upgrades]) => (
                     <tr key={invest}>
                       <td className="text-poe-gold font-semibold whitespace-nowrap">{invest}</td>
@@ -1120,18 +1120,18 @@ export default function MetaBuildsPage() {
               </table>
             </div>
 
-            <H4>Viper Strike of thể Mamba (Assassin/Pathfinder)</H4>
+            <H4>Viper Strike of the Mamba (Assassin/Pathfinder)</H4>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Muc Dau Tu</th><th>DPS</th><th>Content Có The Lam</th><th>Key Upgrades</th></tr>
+                  <tr><th>Mức Đầu Tư</th><th>DPS</th><th>Content Có Thể Làm</th><th>Key Upgrades</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["1 Div", "3-8M poison DPS", "Red Maps T16 (Bino's re)", "Bino's Kitchen Knife, basic poison gear"],
+                    ["1 Div", "3-8M poison DPS", "Red Maps T16 (Bino's rẻ)", "Bino's Kitchen Knife, basic poison gear"],
                     ["10 Div", "15-30M poison DPS", "Pinnacle Bosses", "The Hateful Accuser, 6-link, crit gear"],
                     ["50 Div", "60-100M poison DPS", "Uber Bosses comfortable", "Crafted claw, cluster jewels, Replica Perfect Form"],
-                    ["100+ Div", "150M+ poison DPS", "Moi content deathless", "Mirror-tier claw, perfect gear, mỗi mod chay duoc"],
+                    ["100+ Div", "150M+ poison DPS", "Mọi content deathless", "Mirror-tier claw, perfect gear, mọi mod chạy được"],
                   ].map(([invest, dps, content, upgrades]) => (
                     <tr key={invest}>
                       <td className="text-poe-gold font-semibold whitespace-nowrap">{invest}</td>
@@ -1144,19 +1144,19 @@ export default function MetaBuildsPage() {
               </table>
             </div>
 
-            <H3>Tom tat: Build nao scale tốt nhất theo mức đầu tu?</H3>
+            <H3>Tóm tắt: Build nào scale tốt nhất theo mức đầu tư?</H3>
             <div className="overflow-x-auto">
               <table className="poe-table">
                 <thead>
-                  <tr><th>Muc Dau Tu</th><th>Build Tot Nhat</th><th>Ly Do</th></tr>
+                  <tr><th>Mức Đầu Tư</th><th>Build Tốt Nhất</th><th>Lý Do</th></tr>
                 </thead>
                 <tbody>
                   {[
-                    ["0-1 Div", "Poisonous Concoction PF / Blight Trickster", "Khong cần item dat. Scale từ gem + tree."],
+                    ["0-1 Div", "Poisonous Concoction PF / Blight Trickster", "Không cần item đắt. Scale từ gem + tree."],
                     ["1-10 Div", "GC Miner Elementalist", "10M+ DPS chỉ với 1 Div. Best DPS/cost ratio."],
-                    ["10-50 Div", "Poison SRS Necro / Viper Strike", "Poison stack vo han. Necro S-tier buff."],
-                    ["50-100 Div", "LA/TS Deadeye + Nimis", "Clear speed vuot troi. Farming efficiency cao nhat."],
-                    ["100+ Div", "TS Deadeye + Mageblood + Nimis", "Best farmer. Hoac CoC builds cho damage ceiling cao nhat."],
+                    ["10-50 Div", "Poison SRS Necro / Viper Strike", "Poison stack vô hạn. Necro S-tier buff."],
+                    ["50-100 Div", "LA/TS Deadeye + Nimis", "Clear speed vượt trội. Farming efficiency cao nhất."],
+                    ["100+ Div", "TS Deadeye + Mageblood + Nimis", "Best farmer. Hoặc CoC builds cho damage ceiling cao nhất."],
                   ].map(([invest, build, reason]) => (
                     <tr key={invest}>
                       <td className="text-poe-gold font-semibold whitespace-nowrap">{invest}</td>
@@ -1169,9 +1169,9 @@ export default function MetaBuildsPage() {
             </div>
 
             <Tip>
-              <B>Chien luoc đầu từ hiệu quả nhat:</B> Bat đầu với <Gold>GC Miner</Gold> hoac <Gold>Poisonous Concoction PF</Gold> (0 Div),
-              farm len 20-30 Div, chuyen sang <Gold>LA Deadeye</Gold> để farm nhanh hon, roi đầu từ tiep vao
-              <Gold> Nimis + Headhunter/Mageblood</Gold> để tối đa hoa currency/gio.
+              <B>Chiến lược đầu tư hiệu quả nhất:</B> Bắt đầu với <Gold>GC Miner</Gold> hoặc <Gold>Poisonous Concoction PF</Gold> (0 Div),
+              farm lên 20-30 Div, chuyển sang <Gold>LA Deadeye</Gold> để farm nhanh hơn, rồi đầu tư tiếp vào
+              <Gold> Nimis + Headhunter/Mageblood</Gold> để tối đa hóa currency/giờ.
             </Tip>
           </Section>
 
@@ -1181,9 +1181,9 @@ export default function MetaBuildsPage() {
           <section className="border-t border-poe-border pt-12 text-center">
             <P>
               <span className="text-poe-text-dim text-xs">
-                Du lieu tong hop từ maxroll.gg, poe-vault.com, mobalytics.gg, poe.ninja, aoeah.com, sportskeeda.com,
-                games.gg, va cộng động PoE. Cap nhất thang 3/2026 cho Patch 3.28 Mirage League.
-                Gia item va DPS là uoc tính va có thể thay đổi theo economy hien tai.
+                Dữ liệu tổng hợp từ maxroll.gg, poe-vault.com, mobalytics.gg, poe.ninja, aoeah.com, sportskeeda.com,
+                games.gg, và cộng đồng PoE. Cập nhật tháng 3/2026 cho Patch 3.28 Mirage League.
+                Giá item và DPS là ước tính và có thể thay đổi theo economy hiện tại.
               </span>
             </P>
             <div className="mt-4">

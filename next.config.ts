@@ -1,10 +1,10 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === "production";
-const basePath = isProd ? "/poe-guide" : "";
+const isGithubPages = process.env.GITHUB_PAGES === "true";
+const basePath = isGithubPages ? "/poe-guide" : "";
 
 const nextConfig: NextConfig = {
-  output: "export",
+  ...(isGithubPages && { output: "export" }),
   basePath,
   images: {
     unoptimized: true,
